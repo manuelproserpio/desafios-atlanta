@@ -1,0 +1,31 @@
+name: Validar, generar datos y congelar jornadas
+on:
+  push:
+    paths: ['datos/**', 'herramientas/**', 'app.js']
+  schedule:
+    - cron: '10 3 * * *'   # 00:10 de Argentina: congela la jornada del día
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validar y generar datos.js
+        run: python herramientas/generar.py
+      - name: Congelar las jornadas
+        run: node herramientas/congelar.js
+      - name: Guardar archivos generados
+        run: |
+          git config user.name "bohemio-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add datos.js jornadas.js informe_validacion.txt
+          git diff --cached --quiet || git commit -m "Regenerar datos y jornadas"
+          git push

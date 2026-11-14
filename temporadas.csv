@@ -1,0 +1,19 @@
+temporada,torneo,zona,posicion,puntos,pj,pg,pe,pp,gf,gc,goleadores,dato_clave,nivel,fuente_1,fuente_2,estado,entrenador,pos_definitiva
+2010/11,Primera B Metropolitana,Única,1,86,42,26,8,8,68,37,COMPLETO,Salió campeón y volvió a la B Nacional después de 12 años.,n,xl,,FUENTE_UNICA,Javier Alonso,SI
+2011/12,Primera B Nacional,,19,34,38,6,16,16,28,50,PARCIAL,El 5 de octubre de 2011 perdió 7 a 1 con River Plate y terminó descendiendo.,d,xl,,FUENTE_UNICA,Sergio Rondina,SI
+2012/13,Primera B Metropolitana,Única,3,65,40,17,14,9,48,39,LIDER,Cayó ante Almagro en el Reducido.,d,xl,,FUENTE_UNICA,No encontrado,SI
+2013/14,Primera B Metropolitana,Única,3,65,40,16,17,7,40,25,PARCIAL,Cayó ante Platense en el Reducido.,d,xl,,FUENTE_UNICA,No encontrado,SI
+2014,Primera B Metropolitana,Zona A,9,16,20,4,4,12,17,27,PARCIAL,,d,xl,,FUENTE_UNICA,No encontrado,SI
+2015,Primera B Metropolitana,Única,4,73,42,22,7,13,67,41,PARCIAL,Cayó ante Almagro en el Reducido.,d,xl,,FUENTE_UNICA,No encontrado,SI
+2016,Primera B Metropolitana,Única,13,46,34,12,10,12,42,43,COMPLETO,Flandria se consagró campeón en la cancha de Atlanta tras un 0 a 0.,d,xl,,FUENTE_UNICA,No encontrado,SI
+2016/17,Primera B Metropolitana,Única,3,57,36,15,12,9,45,33,LIDER,,d,xl,,FUENTE_UNICA,No encontrado,SI
+2017/18,Primera B Metropolitana,Única,4,52,34,15,7,12,42,32,PARCIAL,,d,xl,,FUENTE_UNICA,No encontrado,SI
+2018/19,Primera B Metropolitana,Única,2,72,38,20,12,6,64,27,LIDER,"Ascendió a la B Nacional como subcampeón, detrás de Barracas Central.",n,xl,,FUENTE_UNICA,No encontrado,SI
+2019/20,Primera B Nacional,Zona A,1,41,21,12,5,4,34,20,LIDER,El torneo se suspendió por la pandemia con Atlanta puntero de la Zona A.,d,wiki,,FUENTE_UNICA,,NO
+2020,Primera Nacional (transición),Zona A,5,8,7,2,2,3,12,12,PARCIAL,Sarmiento de Junín salió campeón del torneo de transición.,d,wiki,,VERIFICADO,,SI
+2021,Primera Nacional,,,39,32,9,12,11,27,34,PARCIAL,Tigre salió campeón y ascendió.,d,wiki,,FUENTE_UNICA,,SI
+2022,Primera Nacional,Única,18,46,36,11,13,12,33,32,PARCIAL,,d,wiki,,VERIFICADO,,SI
+2023,Primera Nacional,Zona B,15,35,34,8,11,15,33,41,PARCIAL,"El 30 de julio goleó 4-0 a Chaco For Ever, su mayor goleada en la categoría.",n,wiki,,VERIFICADO,,SI
+2024,Primera Nacional,Zona B,12,51,38,13,12,13,30,34,PARCIAL,Aldosivi salió campeón y ascendió a Primera.,d,wiki,,VERIFICADO,,SI
+2025,Primera Nacional,Zona A,2,55,34,14,13,7,31,28,LIDER,En el Reducido le ganó 3-0 a Chaco For Ever y cayó con Deportivo Morón.,n,wiki,,VERIFICADO,,SI
+2026,Primera Nacional,Zona B,2,62,36,19,5,12,42,34,COMPLETO,Clasificó al Reducido y en la Copa Argentina cayó 2-0 con Instituto.,n,xl,,VERIFICADO,Cristian Pellerano,SI

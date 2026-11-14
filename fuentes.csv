@@ -1,0 +1,22 @@
+id,nombre,tipo,confianza,notas
+oficial,Sitio oficial del club (caatlanta.com.ar),oficial,alta,
+cl,Sitio oficial del club,oficial,alta,Alias de oficial
+afa,AFA,oficial,alta,
+wiki,Wikipedia,enciclopedia,media-alta,Cruzar siempre con otra fuente
+espn,ESPN,estadísticas,alta,
+uf,UniversoFútbol,estadísticas,alta,
+bd,BDFA,estadísticas,alta,
+lan,La Nación,prensa,alta,
+inf,Infobae,prensa,alta,
+na,Noticias Argentinas,prensa,alta,
+fm,FotMob,estadísticas,media-alta,
+tm,Transfermarkt,estadísticas,media-alta,
+rss,RSSSF,estadísticas,alta,
+ca,CeroACero,estadísticas,media,
+dep,Deportv,prensa,alta,
+gra,El Gráfico,prensa,alta,
+jc,José Carluccio (periodista),prensa,media,
+xl,Excel aportado por el usuario,aporte,media,Validar contra tablas
+csv,CSV aportado por el usuario,aporte,media,Cada fila trae sus URLs
+man,Manicomio Bohemio,hincha,pista,Solo como pista: tiene errores
+sb,Sentimiento Bohemio,hincha,pista,Solo como pista: tiene errores

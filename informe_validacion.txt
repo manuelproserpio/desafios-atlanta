@@ -1,0 +1,48 @@
+CONTROL DE SUMAS POR TEMPORADA (partidos de liga contra la tabla final)
+  2010/11: PARCIAL_OK  partidos 41/42  calculado G-E-P 26-7-8 GF-GC 66-35  |  tabla G-E-P 26-8-8 GF-GC 68-37
+  2011/12: PARCIAL_OK  partidos 35/38  calculado G-E-P 6-15-14 GF-GC 26-41  |  tabla G-E-P 6-16-16 GF-GC 28-50
+  2012/13: PARCIAL_OK  partidos 19/40  calculado G-E-P 10-5-4 GF-GC 27-18  |  tabla G-E-P 17-14-9 GF-GC 48-39
+  2013/14: PARCIAL_OK  partidos 20/40  calculado G-E-P 8-8-4 GF-GC 20-12  |  tabla G-E-P 16-17-7 GF-GC 40-25
+  2014: COMPLETA_OK  partidos 20/20  calculado G-E-P 4-4-12 GF-GC 17-27  |  tabla G-E-P 4-4-12 GF-GC 17-27
+  2015: PARCIAL_OK  partidos 22/42  calculado G-E-P 10-4-8 GF-GC 32-27  |  tabla G-E-P 22-7-13 GF-GC 67-41
+  2016: SIN_PARTIDOS
+  2016/17: CUARENTENA (calculado con los 36 pendientes: PJ/G/E/P/GF/GC=(36, 14, 13, 9, 35, 25); tabla=(36, 15, 12, 9, 45, 33))
+  2017/18: PARCIAL_OK  partidos 1/34  calculado G-E-P 0-1-0 GF-GC 2-2  |  tabla G-E-P 15-7-12 GF-GC 42-32
+  2018/19: PARCIAL_OK  partidos 24/38  calculado G-E-P 12-7-5 GF-GC 45-21  |  tabla G-E-P 20-12-6 GF-GC 64-27
+  2019/20: SIN_PARTIDOS
+  2020: SIN_PARTIDOS
+  2021: SIN_PARTIDOS
+  2022: PARCIAL_OK  partidos 3/36  calculado G-E-P 2-1-0 GF-GC 4-1  |  tabla G-E-P 11-13-12 GF-GC 33-32
+  2023: PARCIAL_OK  partidos 32/34  calculado G-E-P 8-10-14 GF-GC 31-37  |  tabla G-E-P 8-11-15 GF-GC 33-41
+  2024: PARCIAL_OK  partidos 33/38  calculado G-E-P 10-12-11 GF-GC 24-29  |  tabla G-E-P 13-12-13 GF-GC 30-34
+  2025: COMPLETA_OK  partidos 34/34  calculado G-E-P 14-13-7 GF-GC 31-28  |  tabla G-E-P 14-13-7 GF-GC 31-28
+  2026: COMPLETA_OK  partidos 36/36  calculado G-E-P 19-5-12 GF-GC 42-34  |  tabla G-E-P 19-5-12 GF-GC 42-34
+
+GOLES POR PARTIDO (filas de goles.csv contra el marcador)
+  partidos con goleadores coherentes: 57; incompletos: 2; con filas de más: 0
+
+GOLEADORES POR TEMPORADA
+  2010/11: 15 jugadores, suman 67 de 68 goles (COMPLETO) OK
+  2011/12: 12 jugadores, suman 25 de 28 goles (PARCIAL) OK
+  2012/13: 3 jugadores, suman 26 de 48 goles (LIDER) OK
+  2016: 10 jugadores, suman 42 de 42 goles (COMPLETO) OK
+  2016/17: 1 jugadores, suman 13 de 45 goles (LIDER) OK
+  2017/18: 1 jugadores, suman 5 de 42 goles (PARCIAL) OK
+  2018/19: 2 jugadores, suman 35 de 64 goles (LIDER) OK
+  2019/20: 1 jugadores, suman 10 de 34 goles (LIDER) OK
+  2020: 1 jugadores, suman 3 de 12 goles (PARCIAL) OK
+  2022: 1 jugadores, suman 7 de 33 goles (PARCIAL) OK
+  2023: 1 jugadores, suman 9 de 33 goles (PARCIAL) OK
+  2024: 1 jugadores, suman 6 de 30 goles (PARCIAL) OK
+  2025: 4 jugadores, suman 22 de 31 goles (LIDER) OK
+  2026: 14 jugadores, suman 42 de 42 goles (COMPLETO) OK
+
+NOMBRES DE GOLEADORES NO RECONOCIDOS (0): ninguno
+
+RESUMEN: 394 partidos en la base; 321 aptos para los juegos; 53 con goleadores coherentes.
+         0 errores, 3 avisos.
+
+AVISOS:
+  - 2017/18: 33 partidos PENDIENTES excluidos de los juegos
+  - 2016-17-023 San Telmo 2-3 Atlanta: 1 goles de Atlanta cargados para 3 del marcador
+  - 2026-004 Atlanta 3-1 Deportivo Maipú: 2 goles de Atlanta cargados para 3 del marcador

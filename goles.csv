@@ -1,0 +1,165 @@
+partido_id,equipo,jugador,minuto,tipo,fuente
+2016-17-001,RIVAL,PENDIENTE,,normal,csv
+2016-17-020,ATL,Luciano Pons,,normal,csv
+2016-17-020,RIVAL,Juan Martín,,normal,csv
+2016-17-023,ATL,Nahuel Peralta,,normal,csv
+2016-17-023,RIVAL,R. González,,normal,csv
+2016-17-023,RIVAL,C. Leiva,,normal,csv
+2016-17-036,ATL,Leonel Altobelli,,normal,csv
+2017-18-013,ATL,Jonathan Cháves,,normal,csv
+2017-18-013,RIVAL,Jonathan Benedetti,,normal,csv
+2025-001,ATL,Tomás Rojas,2' ST,normal,csv
+2025-004,ATL,Jonatan Bauman,44' ST,normal,csv
+2025-004,RIVAL,Esteban Fernández,23' ST,normal,csv
+2025-005,ATL,Nicolás Previtali,42' ST,normal,csv
+2025-006,ATL,Jorge Valdez Chamorro,2' PT,normal,csv
+2025-006,ATL,Santiago Coronel,45' ST,normal,csv
+2025-006,RIVAL,Mauricio Asenjo,24' ST,normal,csv
+2025-007,ATL,Lautaro Fedele,32' ST,normal,csv
+2025-007,RIVAL,Albarracín,,normal,csv
+2025-008,ATL,Lautaro Fedele,26' PT,normal,csv
+2025-008,ATL,Lautaro Fedele,9' ST,normal,csv
+2025-010,ATL,Marcos Echeverría,24' ST,normal,csv
+2025-011,ATL,José Amado Gómez,31' ST,normal,csv
+2025-012,ATL,Nicolás Medina,,normal,csv
+2025-012,RIVAL,Alan Bonansea,,normal,csv
+2025-013,RIVAL,Tobías Arévalo,,normal,csv
+2025-013,RIVAL,Nicolás Monserrat,,penal,csv
+2025-014,ATL,Marcos Echeverría,19' PT,normal,csv
+2025-014,ATL,José Gómez,15' ST,normal,csv
+2025-014,ATL,Federico Bisanz,28' ST,normal,csv
+2025-014,RIVAL,Martín Pino,26' ST,normal,csv
+2025-016,ATL,Lucas Ambrogio,4' ST,normal,csv
+2025-017,ATL,Marcos Echeverría,39' ST,normal,csv
+2025-018,ATL,Jorge Valdez Chamorro,29' ST,normal,csv
+2025-018,RIVAL,Bruno Pérez,,normal,csv
+2025-019,RIVAL,Juan Gobetto,,normal,csv
+2025-019,RIVAL,Marco Miori,,normal,csv
+2025-021,ATL,Lucas Ambrogio,4' PT,normal,csv
+2025-021,ATL,Jonathan Dellarossa,49' ST,normal,csv
+2025-021,ATL,Federico Bisanz,68' ST,normal,csv
+2025-021,ATL,Nicolás Tolosa,72' ST,normal,csv
+2025-023,RIVAL,Rodrigo Moreira,20' PT,normal,csv
+2025-023,RIVAL,Facundo Echeverría,39' PT,normal,csv
+2025-023,RIVAL,Matías González,11' ST,normal,csv
+2025-024,ATL,Jorge Valdez Chamorro,29' PT,normal,csv
+2025-024,ATL,Lucas Ambrogio,35' PT,normal,csv
+2025-025,ATL,Federico Bisanz,70' ST,normal,csv
+2025-025,RIVAL,Gabriel Carabajal,24' PT,normal,csv
+2025-025,RIVAL,Juan Ignacio Capano,90+4' ST,normal,csv
+2025-026,ATL,Nicolás Medina,90+1',normal,csv
+2025-026,RIVAL,Jorge Ferrero,54',normal,csv
+2025-028,ATL,Nicolás Medina,16' ST,normal,csv
+2025-028,ATL,Rodrigo Ramírez,35' ST,normal,csv
+2025-028,RIVAL,Franco García,24' ST,normal,csv
+2025-030,ATL,Federico Bisanz,36' PT,normal,csv
+2025-031,RIVAL,Martín Pino,19' PT,normal,csv
+2025-031,RIVAL,Franco García,21',normal,csv
+2025-031,RIVAL,Franco García,62',normal,csv
+2025-031,RIVAL,Matías García,33',normal,csv
+2025-032,ATL,Marcos Echeverría,75',normal,csv
+2025-033,ATL,Marcos Echeverría,48',normal,csv
+2025-033,ATL,Lautaro Fedele,68',normal,csv
+2025-033,RIVAL,Lautaro Montoya,86',normal,csv
+2025-033,RIVAL,Gabriel Díaz,90+6',penal,csv
+2025-034,RIVAL,Pío Bonacci,7' ST,normal,csv
+2025-034,RIVAL,Juan Cruz Arno,31' ST,normal,csv
+2025-034,RIVAL,Franco Saccone,36' ST,normal,csv
+2025-035,ATL,Jorge Valdez Chamorro,,penal,csv
+2025-035,ATL,Marcos Echeverría,,normal,csv
+2025-035,ATL,Nicolás Medina,,normal,csv
+2025-036,RIVAL,PENDIENTE,,normal,csv
+2026-001,ATL,Alejandro Quintana,45' ST,normal,csv
+2026-002,RIVAL,Franco Hanashiro,14' ST,normal,csv
+2026-004,ATL,Federico Bisanz,,normal,csv
+2026-004,ATL,Leonel Galeano,,normal,csv
+2026-004,RIVAL,Juan Pablo Gobetto,,normal,csv
+2026-005,ATL,Alejandro Quintana,24' PT,normal,csv
+2026-005,RIVAL,Tomás Rojas,33' PT,normal,csv
+2026-005,RIVAL,Gabriel Hauche,35' ST,normal,csv
+2026-006,RIVAL,Lautaro Parisi,16' ST,normal,csv
+2026-007,RIVAL,Leonel Galeano,21' PT,normal,csv
+2026-007,RIVAL,Alex Luna,43' ST,normal,csv
+2026-008,ATL,Leonel Galeano,90+5',normal,csv
+2026-008,RIVAL,Emiliano Méndez,27',normal,csv
+2026-008,RIVAL,Sebastián Cocimano,49',normal,csv
+2026-009,ATL,Rodrigo Moreira,29' PT,normal,csv
+2026-009,ATL,Federico Álvarez,48' ST,normal,csv
+2026-009,RIVAL,Mauro Osores,,normal,csv
+2026-010,ATL,Ignacio Rodríguez,6' ST,normal,csv
+2026-011,ATL,Alejandro Quintana,24' ST,normal,csv
+2026-011,ATL,Federico Castro,40' ST,normal,csv
+2026-012,ATL,Lautaro Fedele,24' PT,normal,csv
+2026-012,ATL,Jeremías Rodríguez Puch,37' PT,normal,csv
+2026-012,ATL,Braian Rivero,23' ST,normal,csv
+2026-012,RIVAL,Álvaro Veliez,,normal,csv
+2026-014,ATL,Federico Álvarez,39' PT,normal,csv
+2026-014,ATL,Lautaro Fedele,35' ST,normal,csv
+2026-015,ATL,Jeremías Rodríguez Puch,13' ST,normal,csv
+2026-016,ATL,Nicolás Previtali,41' ST,normal,csv
+2026-016,RIVAL,Tiago Banega,32' ST,normal,csv
+2026-017,ATL,Alejandro Quintana,1' ST,normal,csv
+2026-017,ATL,Jeremías Rodríguez Puch,11' ST,normal,csv
+2026-017,ATL,Christian Bernardi,46' ST,normal,csv
+2026-018,ATL,Federico Castro,3' PT,normal,csv
+2026-018,ATL,Ignacio Rodríguez,10' ST,normal,csv
+2026-018,RIVAL,Maximiliano Rogoski,29' PT,normal,csv
+2026-019,RIVAL,Mateo Benegas,,normal,csv
+2026-019,RIVAL,Enzo Martínez,,normal,csv
+2026-020,ATL,Alejandro Quintana,71',normal,csv
+2026-020,RIVAL,Aarón Spetale,79',normal,csv
+2026-020,RIVAL,Thomas Ortega,90+6',normal,csv
+2026-021,ATL,Ignacio Rodríguez,8' ST,normal,csv
+2026-022,ATL,Rodrigo Moreira,23' ST,normal,csv
+2026-022,RIVAL,Julián Marchioni,8' PT,normal,csv
+2026-022,RIVAL,Julián Vitale,15' PT,normal,csv
+2026-022,RIVAL,Joel Orlando,38' PT,normal,csv
+2026-023,ATL,Nicolás Previtali,18' PT,penal,csv
+2026-023,ATL,Jeremías Rodríguez Puch,44' PT,normal,csv
+2026-023,RIVAL,Mirko Bonfigli,,normal,csv
+2026-023,RIVAL,Juan Cruz Giacone,,normal,csv
+2026-023,RIVAL,Santiago Paulini,,normal,csv
+2026-024,ATL,Nicolás Previtali,42' ST,penal,csv
+2026-025,ATL,Alejandro Quintana,14' ST,normal,csv
+2026-025,RIVAL,Enzo Hoyos,17' PT,normal,csv
+2026-025,RIVAL,Lautaro Parisi,8' ST,normal,csv
+2026-025,RIVAL,Franco García,24' ST,normal,csv
+2026-026,ATL,Ignacio Rodríguez,12' PT,normal,csv
+2026-027,RIVAL,Gabriel Díaz,9' PT,normal,csv
+2026-027,RIVAL,Brandon Cortés,36' ST,normal,csv
+2026-028,RIVAL,Mauro Osores,55',normal,csv
+2026-029,ATL,Rodrigo Moreira,49' PT,normal,csv
+2026-030,ATL,Alejandro Quintana,35' PT,normal,csv
+2026-030,ATL,Alejo Dramisino,9' ST,normal,csv
+2026-032,ATL,Federico Álvarez,,normal,csv
+2026-033,ATL,Federico Álvarez,40' PT,normal,csv
+2026-033,ATL,Braian Rivero,25' ST,normal,csv
+2026-033,ATL,Leonel Galeano,35' ST,normal,csv
+2026-033,RIVAL,Martín García,24' PT,normal,csv
+2026-033,RIVAL,Mauro Quiroga,44' ST,normal,csv
+2026-034,ATL,Patricio Ostachuk,28' ST,normal,csv
+2026-035,ATL,Braian Rivero,29' PT,normal,csv
+2026-035,RIVAL,Fabricio Rojas,14' PT,normal,csv
+2026-035,RIVAL,Lautaro Capano,32',normal,csv
+2026-035,RIVAL,Lautaro Capano,46' ST,normal,csv
+2026-036,ATL,Ignacio Rodríguez,50',normal,csv
+2026-036,ATL,Jere Rodríguez,61',normal,csv
+2026-036,RIVAL,Cristian Menéndez,66',normal,csv
+2023-031,ATL,Juan Galeano,10',normal,lan
+2023-031,ATL,Juan Galeano,48',normal,lan
+2023-031,ATL,Nicolás Mazzola,19',normal,lan
+2023-031,RIVAL,Enzo Acosta 8',,normal,lan
+2023-031,RIVAL,Martín Garnerone 27',,normal,lan
+2023-032,ATL,Federico Bisanz,60',normal,lan
+2023-032,ATL,Juan Galeano,65',normal,lan
+2023-032,ATL,Juan Galeano,72',normal,lan
+2023-032,ATL,Juan Galeano,76',normal,lan
+2024-030,ATL,Federico Bisanz,5',normal,lan
+2024-030,ATL,Leonardo Marinucci,88',normal,lan
+2024-030,ATL,Ivo Constantino,90+5',normal,lan
+2024-031,ATL,Federico Bisanz,31',normal,lan
+2024-031,ATL,Leonardo Marinucci,57',normal,lan
+2024-032,ATL,Jonathan Cañete,72',normal,lan
+2024-032,RIVAL,Javier Toledo 58',,normal,lan
+2024-033,ATL,Dylan Gissi,46',normal,lan
+2024-033,ATL,Alejo Dramisino,66',normal,lan

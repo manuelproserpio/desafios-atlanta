@@ -1,0 +1,395 @@
+id,temporada,torneo,zona,fecha_oficial,fecha,local,goles_local,goles_visitante,visitante,estadio,estado,fuente_1,fuente_2,observaciones
+2024-001,2024,Primera Nacional,Zona B,1,2024-02-04,Almirante Brown,0,1,Atlanta,Fragata Presidente Sarmiento,VERIFICADO,wiki,,
+2024-002,2024,Primera Nacional,Zona B,2,2024-02-11,Atlanta,0,0,Colón,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-003,2024,Primera Nacional,Zona B,4,2024-02-27,Atlanta,0,2,Aldosivi,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-004,2024,Primera Nacional,Zona B,5,2024-03-03,Mitre (SdE),0,0,Atlanta,Doctores José y Antonio Castiglione,VERIFICADO,wiki,,
+2024-005,2024,Primera Nacional,Zona B,6,2024-03-11,Atlanta,1,1,Gimnasia y Tiro (S),Don León Kolbowsky,VERIFICADO,wiki,,
+2024-006,2024,Primera Nacional,Zona B,7,2024-03-18,Gimnasia y Esgrima (M),2,1,Atlanta,Víctor Antonio Legrotaglie,VERIFICADO,wiki,,
+2024-007,2024,Primera Nacional,Zona B,8,2024-03-25,Atlanta,0,0,Nueva Chicago,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-008,2024,Primera Nacional,Zona B,9,2024-03-31,Deportivo Morón,3,0,Atlanta,Nuevo Francisco Urbano,VERIFICADO,wiki,,
+2024-009,2024,Primera Nacional,Zona B,10,2024-04-08,Atlanta,0,2,Temperley,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-010,2024,Primera Nacional,Zona B,13,2024-04-27,Defensores de Belgrano,2,0,Atlanta,Juan Pasquale,VERIFICADO,wiki,,
+2024-011,2024,Primera Nacional,Zona B,14,2024-05-04,Atlanta,1,0,Chaco For Ever,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-012,2024,Primera Nacional,Zona B,15,2024-05-12,San Telmo,0,1,Atlanta,Doctor Osvaldo Baletto,VERIFICADO,wiki,,
+2024-013,2024,Primera Nacional,Zona B,17,2024-05-26,Deportivo Madryn,3,0,Atlanta,Abel Sastre,VERIFICADO,wiki,,
+2024-014,2024,Primera Nacional,Zona B,18,2024-06-03,Atlanta,1,1,Defensores Unidos,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-015,2024,Primera Nacional,Zona B,20,2024-06-24,Atlanta,1,0,Almirante Brown,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-016,2024,Primera Nacional,Zona B,22,2024-07-06,Atlanta,1,1,Estudiantes (RC),Don León Kolbowsky,VERIFICADO,wiki,,
+2024-017,2024,Primera Nacional,Zona B,23,2024-07-14,Aldosivi,2,1,Atlanta,José María Minella,VERIFICADO,wiki,,
+2024-018,2024,Primera Nacional,Zona B,24,2024-07-22,Atlanta,0,0,Mitre (SdE),Don León Kolbowsky,VERIFICADO,wiki,,
+2024-019,2024,Primera Nacional,Zona B,25,2024-07-28,Gimnasia y Tiro (S),1,0,Atlanta,Gigante del Norte,VERIFICADO,wiki,,
+2024-020,2024,Primera Nacional,Zona B,26,2024-08-05,Atlanta,1,2,Gimnasia y Esgrima (M),Don León Kolbowsky,VERIFICADO,wiki,,
+2024-021,2024,Primera Nacional,Zona B,27,2024-08-11,Nueva Chicago,0,1,Atlanta,República de Mataderos,VERIFICADO,wiki,,
+2024-022,2024,Primera Nacional,Zona B,28,2024-08-19,Atlanta,1,0,Deportivo Morón,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-023,2024,Primera Nacional,Zona B,29,2024-08-25,Temperley,1,1,Atlanta,Alfredo Beranger,VERIFICADO,wiki,,
+2024-024,2024,Primera Nacional,Zona B,31,2024-09-07,Almagro,0,0,Atlanta,Tres de Febrero,VERIFICADO,wiki,,
+2024-025,2024,Primera Nacional,Zona B,32,2024-09-15,Atlanta,0,0,Defensores de Belgrano,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-026,2024,Primera Nacional,Zona B,33,2024-09-23,Chaco For Ever,2,1,Atlanta,Juan Alberto García,VERIFICADO,wiki,,
+2024-027,2024,Primera Nacional,Zona B,35,2024-10-06,Atlético de Rafaela,2,0,Atlanta,Nuevo Monumental,VERIFICADO,wiki,,
+2024-028,2024,Primera Nacional,Zona B,36,2024-10-14,Atlanta,1,1,Deportivo Madryn,Don León Kolbowsky,VERIFICADO,wiki,,
+2024-029,2024,Primera Nacional,Zona B,37,2024-10-19,Defensores Unidos,0,1,Atlanta,Mario Losinno,VERIFICADO,wiki,,
+2022-001,2022,Primera Nacional,,2,2022-02-19,Atlanta,3,1,Güemes (SdE),Don León Kolbowsky,VERIFICADO,wiki,,
+2022-002,2022,Primera Nacional,,12,2022-04-23,Atlanta,0,0,Estudiantes (RC),Don León Kolbowsky,VERIFICADO,wiki,,
+2022-003,2022,Primera Nacional,,32,2022-09-03,Atlanta,1,0,Estudiantes (BA),Don León Kolbowsky,VERIFICADO,wiki,,
+2010-11-001,2010/11,Primera B Metropolitana,,1,2010-07-24,Atlanta,1,0,Brown de Adrogué,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-002,2010/11,Primera B Metropolitana,,2,2010-07-31,Atlanta,1,1,Tristán Suárez,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-003,2010/11,Primera B Metropolitana,,3,2010-08-07,San Telmo,2,1,Atlanta,Dr. Osvaldo Baletto,VERIFICADO,xl,,
+2010-11-004,2010/11,Primera B Metropolitana,,4,2010-08-14,Atlanta,2,0,Deportivo Español,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-005,2010/11,Primera B Metropolitana,,5,2010-08-21,Sarmiento,1,1,Atlanta,Eva Perón,VERIFICADO,xl,,
+2010-11-006,2010/11,Primera B Metropolitana,,6,2010-08-28,Atlanta,2,2,Flandria,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-007,2010/11,Primera B Metropolitana,,7,2010-09-04,Defensores de Belgrano,0,0,Atlanta,Juan Pasquale,VERIFICADO,xl,,
+2010-11-008,2010/11,Primera B Metropolitana,,8,2010-09-11,Atlanta,2,0,Acassuso,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-009,2010/11,Primera B Metropolitana,,9,2010-09-18,Los Andes,1,3,Atlanta,Eduardo Gallardón,VERIFICADO,xl,,
+2010-11-010,2010/11,Primera B Metropolitana,,10,2010-09-25,Atlanta,2,1,Colegiales,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-011,2010/11,Primera B Metropolitana,,11,2010-10-02,Estudiantes (C),0,3,Atlanta,Ciudad de Caseros,VERIFICADO,xl,,
+2010-11-012,2010/11,Primera B Metropolitana,,12,2010-10-09,Atlanta,4,0,Nueva Chicago,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-013,2010/11,Primera B Metropolitana,,13,2010-10-16,Comunicaciones,1,0,Atlanta,Alfredo Ramos,VERIFICADO,xl,,
+2010-11-014,2010/11,Primera B Metropolitana,,14,2010-10-23,Atlanta,2,1,Villa San Carlos,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-015,2010/11,Primera B Metropolitana,,15,2010-10-30,Sportivo Italiano,0,1,Atlanta,República de Italia,VERIFICADO,xl,,
+2010-11-016,2010/11,Primera B Metropolitana,,16,2010-11-06,Atlanta,3,1,Deportivo Morón,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-017,2010/11,Primera B Metropolitana,,17,2010-11-13,Barracas Central,1,1,Atlanta,Barracas Central,VERIFICADO,xl,,
+2010-11-018,2010/11,Primera B Metropolitana,,18,2010-11-20,Atlanta,1,0,Platense,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-019,2010/11,Primera B Metropolitana,,19,2010-11-27,Temperley,1,2,Atlanta,Alfredo Beranger,VERIFICADO,xl,,
+2010-11-020,2010/11,Primera B Metropolitana,,20,2010-12-04,Atlanta,2,1,Deportivo Armenio,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-021,2010/11,Primera B Metropolitana,,21,2010-12-11,Almagro,1,2,Atlanta,Tres de Febrero,VERIFICADO,xl,,
+2010-11-022,2010/11,Primera B Metropolitana,,22,2011-02-12,Brown de Adrogué,2,0,Atlanta,Lorenzo Arandilla,VERIFICADO,xl,,
+2010-11-023,2010/11,Primera B Metropolitana,,23,2011-02-19,Tristán Suárez,1,4,Atlanta,20 de Octubre,VERIFICADO,xl,,
+2010-11-024,2010/11,Primera B Metropolitana,,24,2011-02-26,Atlanta,3,0,San Telmo,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-025,2010/11,Primera B Metropolitana,,25,2011-03-05,Deportivo Español,0,2,Atlanta,Nueva España,VERIFICADO,xl,,
+2010-11-026,2010/11,Primera B Metropolitana,,26,2011-03-12,Atlanta,2,1,Sarmiento,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-027,2010/11,Primera B Metropolitana,,27,2011-03-19,Flandria,3,0,Atlanta,Carlos V,VERIFICADO,xl,,
+2010-11-028,2010/11,Primera B Metropolitana,,28,2011-03-26,Atlanta,1,2,Defensores de Belgrano,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-029,2010/11,Primera B Metropolitana,,30,2011-04-09,Atlanta,4,1,Los Andes,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-030,2010/11,Primera B Metropolitana,,31,2011-04-16,Colegiales,1,2,Atlanta,Libertarios Unidos,VERIFICADO,xl,,
+2010-11-031,2010/11,Primera B Metropolitana,,32,,Atlanta,2,0,Los Andes,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-032,2010/11,Primera B Metropolitana,,33,,Nueva Chicago,0,1,Atlanta,República de Mataderos,VERIFICADO,xl,,
+2010-11-033,2010/11,Primera B Metropolitana,,34,,Atlanta,1,0,Comunicaciones,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-034,2010/11,Primera B Metropolitana,,35,,Villa San Carlos,3,0,Atlanta,Genacio Sálice,VERIFICADO,xl,,
+2010-11-035,2010/11,Primera B Metropolitana,,36,2011-04-23,Atlanta,2,1,Sportivo Italiano,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-036,2010/11,Primera B Metropolitana,,37,2011-05-04,Deportivo Morón,1,2,Atlanta,Nuevo Francisco Urbano,VERIFICADO,xl,,
+2010-11-037,2010/11,Primera B Metropolitana,,38,2011-05-07,Atlanta,0,1,Barracas Central,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-038,2010/11,Primera B Metropolitana,,39,2011-05-18,Platense,1,0,Atlanta,Ciudad de Vicente López,VERIFICADO,xl,,
+2010-11-039,2010/11,Primera B Metropolitana,,40,2011-05-21,Atlanta,2,0,Temperley,Don León Kolbowsky,VERIFICADO,xl,,
+2010-11-040,2010/11,Primera B Metropolitana,,41,2011-05-28,Deportivo Armenio,2,2,Atlanta,Armenia,VERIFICADO,xl,,
+2010-11-041,2010/11,Primera B Metropolitana,,42,2011-06-03,Atlanta,0,0,Almagro,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-001,2011/12,Primera B Nacional,,1,2011-08-06,Atlanta,1,1,Aldosivi,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-002,2011/12,Primera B Nacional,,2,2011-08-21,Atlético Tucumán,0,0,Atlanta,Monumental José Fierro,VERIFICADO,xl,,
+2011-12-003,2011/12,Primera B Nacional,,3,2011-08-27,Atlanta,0,0,Rosario Central,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-004,2011/12,Primera B Nacional,,4,2011-09-04,Patronato,3,2,Atlanta,Presbítero Bartolomé Grella,VERIFICADO,xl,,
+2011-12-005,2011/12,Primera B Nacional,,5,2011-09-10,Atlanta,0,0,Chacarita Juniors,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-006,2011/12,Primera B Nacional,,6,2011-09-18,Desamparados,2,0,Atlanta,Bicentenario,VERIFICADO,xl,,
+2011-12-007,2011/12,Primera B Nacional,,7,2011-09-24,Atlanta,1,1,Defensa y Justicia,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-008,2011/12,Primera B Nacional,,8,2011-10-01,Gimnasia (LP),1,2,Atlanta,Juan Carmelo Zerillo,VERIFICADO,xl,,
+2011-12-009,2011/12,Primera B Nacional,,10,2011-10-08,Atlanta,0,4,Instituto,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-010,2011/12,Primera B Nacional,,11,2011-10-16,Gimnasia (J),0,4,Atlanta,23 de Agosto,VERIFICADO,xl,,
+2011-12-011,2011/12,Primera B Nacional,,12,2011-10-29,Atlanta,2,0,Guillermo Brown,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-012,2011/12,Primera B Nacional,,13,2011-11-07,Boca Unidos,1,0,Atlanta,Huracán Corrientes,VERIFICADO,xl,,
+2011-12-013,2011/12,Primera B Nacional,,14,2011-11-13,Atlanta,0,0,Almirante Brown,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-014,2011/12,Primera B Nacional,,15,2011-11-19,Independiente Rivadavia,0,0,Atlanta,Bautista Gargantini,VERIFICADO,xl,,
+2011-12-015,2011/12,Primera B Nacional,,16,2011-11-28,Atlanta,0,1,Quilmes,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-016,2011/12,Primera B Nacional,,17,2011-12-03,Deportivo Merlo,3,1,Atlanta,José Manuel Moreno,VERIFICADO,xl,,
+2011-12-017,2011/12,Primera B Nacional,,18,2011-12-12,Atlanta,2,0,Ferro Carril Oeste,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-018,2011/12,Primera B Nacional,,19,2012-02-04,Huracán,2,2,Atlanta,Tomás A. Ducó,VERIFICADO,xl,,
+2011-12-019,2011/12,Primera B Nacional,,20,2012-02-12,Aldosivi,3,0,Atlanta,José María Minella,VERIFICADO,xl,,
+2011-12-020,2011/12,Primera B Nacional,,21,2012-02-20,Atlanta,1,1,Atlético Tucumán,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-021,2011/12,Primera B Nacional,,22,2012-02-25,Rosario Central,2,0,Atlanta,Gigante de Arroyito,VERIFICADO,xl,,
+2011-12-022,2011/12,Primera B Nacional,,23,2012-03-03,Atlanta,0,0,Patronato,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-023,2011/12,Primera B Nacional,,24,2012-03-11,Chacarita Juniors,1,1,Atlanta,Chacarita Juniors,VERIFICADO,xl,,
+2011-12-024,2011/12,Primera B Nacional,,25,2012-03-18,Atlanta,1,2,Desamparados,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-025,2011/12,Primera B Nacional,,26,2012-03-23,Defensa y Justicia,0,0,Atlanta,Norberto Tomaghello,VERIFICADO,xl,,
+2011-12-026,2011/12,Primera B Nacional,,27,2012-03-30,Atlanta,0,0,Gimnasia (LP),Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-027,2011/12,Primera B Nacional,,28,2012-04-08,Atlanta,1,0,River Plate,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-028,2011/12,Primera B Nacional,,29,2012-04-15,Instituto,1,0,Atlanta,Mario Alberto Kempes,VERIFICADO,xl,,
+2011-12-029,2011/12,Primera B Nacional,,30,2012-04-21,Atlanta,0,0,Gimnasia (J),Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-030,2011/12,Primera B Nacional,,31,2012-04-30,Guillermo Brown,3,0,Atlanta,Raúl Conti,VERIFICADO,xl,,
+2011-12-031,2011/12,Primera B Nacional,,33,2012-05-14,Almirante Brown,2,0,Atlanta,Fragata Presidente Sarmiento,VERIFICADO,xl,,
+2011-12-032,2011/12,Primera B Nacional,,34,2012-05-19,Atlanta,1,2,Independiente Rivadavia,Don León Kolbowsky,VERIFICADO,xl,,
+2011-12-033,2011/12,Primera B Nacional,,35,2012-05-26,Quilmes,1,1,Atlanta,Centenario,VERIFICADO,xl,,
+2011-12-034,2011/12,Primera B Nacional,,37,2012-06-16,Ferro Carril Oeste,2,3,Atlanta,Arquitecto Ricardo Etcheverri,VERIFICADO,xl,,
+2011-12-035,2011/12,Primera B Nacional,,38,2012-06-23,Atlanta,0,2,Huracán,Don León Kolbowsky,VERIFICADO,xl,,
+2012-13-001,2012/13,Primera B Metropolitana,,,2012-08-04,Atlanta,2,2,Defensores de Belgrano,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2012-13-002,2012/13,Primera B Metropolitana,,,2012-08-14,Chacarita Juniors,0,0,Atlanta,Chacarita Juniors,FUENTE_UNICA,xl,,
+2012-13-003,2012/13,Primera B Metropolitana,,,2012-08-20,Atlanta,0,1,Barracas Central,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2012-13-004,2012/13,Primera B Metropolitana,,,2012-08-25,Brown de Adrogué,3,0,Atlanta,Lorenzo Arandilla,FUENTE_UNICA,xl,,
+2012-13-005,2012/13,Primera B Metropolitana,,,2012-09-01,Atlanta,2,2,Flandria,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2012-13-006,2012/13,Primera B Metropolitana,,,2012-09-07,Colegiales,1,2,Atlanta,Colegiales,FUENTE_UNICA,xl,,
+2012-13-007,2012/13,Primera B Metropolitana,,,2012-09-11,Atlanta,3,1,Deportivo Armenio,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2012-13-008,2012/13,Primera B Metropolitana,,,2012-09-18,Temperley,1,1,Atlanta,Alfredo Beranger,FUENTE_UNICA,xl,,
+2012-13-009,2012/13,Primera B Metropolitana,,,2012-09-22,Atlanta,3,0,Villa San Carlos,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2012-13-010,2012/13,Primera B Metropolitana,,,2012-10-02,Almagro,1,2,Atlanta,Tres de Febrero,FUENTE_UNICA,xl,,
+2012-13-011,2012/13,Primera B Metropolitana,,,2012-10-06,Atlanta,2,0,Central Córdoba (R),Don León Kolbowsky,FUENTE_UNICA,xl,,
+2012-13-012,2012/13,Primera B Metropolitana,,,2012-10-19,Platense,2,0,Atlanta,Ciudad de Vicente López,FUENTE_UNICA,xl,,
+2012-13-013,2012/13,Primera B Metropolitana,,,2012-10-23,Atlanta,1,2,Comunicaciones,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2012-13-014,2012/13,Primera B Metropolitana,,,2012-10-28,Tristán Suárez,1,3,Atlanta,20 de Octubre,FUENTE_UNICA,xl,,
+2012-13-015,2012/13,Primera B Metropolitana,,,2012-11-03,Atlanta,1,1,Deportivo Morón,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2012-13-016,2012/13,Primera B Metropolitana,,,2012-11-11,Acassuso,0,2,Atlanta,Ciudad de Caseros,FUENTE_UNICA,xl,,
+2012-13-017,2012/13,Primera B Metropolitana,,,2012-11-17,Atlanta,1,0,Los Andes,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2012-13-018,2012/13,Primera B Metropolitana,,,2012-11-26,San Telmo,0,1,Atlanta,Dr. Osvaldo Baletto,FUENTE_UNICA,xl,,
+2012-13-019,2012/13,Primera B Metropolitana,,,2012-11-29,Atlanta,1,0,Estudiantes (C),Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-001,2013/14,Primera B Metropolitana,,,2013-08-04,Nueva Chicago,1,1,Atlanta,República de Mataderos,FUENTE_UNICA,xl,,
+2013-14-002,2013/14,Primera B Metropolitana,,,2013-08-14,Atlanta,0,1,Villa Dálmine,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-003,2013/14,Primera B Metropolitana,,,2013-08-24,Atlanta,0,2,Chacarita Juniors,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-004,2013/14,Primera B Metropolitana,,,2013-08-31,Deportivo Merlo,1,2,Atlanta,José Manuel Moreno,FUENTE_UNICA,xl,,
+2013-14-005,2013/14,Primera B Metropolitana,,,2013-09-18,Atlanta,0,0,Fénix,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-006,2013/14,Primera B Metropolitana,,,2013-09-11,Temperley,0,0,Atlanta,Alfredo Beranger,FUENTE_UNICA,xl,,
+2013-14-007,2013/14,Primera B Metropolitana,,,2013-09-14,Atlanta,0,0,Tristán Suárez,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-008,2013/14,Primera B Metropolitana,,,2013-09-21,Colegiales,0,2,Atlanta,Colegiales,FUENTE_UNICA,xl,,
+2013-14-009,2013/14,Primera B Metropolitana,,,2013-09-28,Atlanta,0,0,Comunicaciones,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-010,2013/14,Primera B Metropolitana,,,2013-10-08,Deportivo Armenio,0,0,Atlanta,Armenia,FUENTE_UNICA,xl,,
+2013-14-011,2013/14,Primera B Metropolitana,,,2013-10-12,Atlanta,1,0,Estudiantes,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-012,2013/14,Primera B Metropolitana,,,2013-10-21,UAI Urquiza,1,2,Atlanta,Monumental de Villa Lynch,FUENTE_UNICA,xl,,
+2013-14-013,2013/14,Primera B Metropolitana,,,2013-10-29,Atlanta,1,0,Deportivo Morón,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-014,2013/14,Primera B Metropolitana,,,2013-11-02,Defensores de Belgrano,1,0,Atlanta,Juan Pasquale,FUENTE_UNICA,xl,,
+2013-14-015,2013/14,Primera B Metropolitana,,,2013-11-09,Atlanta,3,0,Flandria,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-016,2013/14,Primera B Metropolitana,,,2013-12-04,Los Andes,1,1,Atlanta,Eduardo Gallardón,FUENTE_UNICA,xl,,
+2013-14-017,2013/14,Primera B Metropolitana,,,2013-11-23,Atlanta,4,1,Acassuso,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-018,2013/14,Primera B Metropolitana,,,2013-11-29,Platense,1,1,Atlanta,Ciudad de Vicente López,FUENTE_UNICA,xl,,
+2013-14-019,2013/14,Primera B Metropolitana,,,2013-12-08,Atlanta,1,0,Barracas Central,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2013-14-020,2013/14,Primera B Metropolitana,,,2014-02-08,Atlanta,1,2,Nueva Chicago,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2014-001,2014,Primera B Metropolitana,,,2014-08-09,Fénix,1,0,Atlanta,Carlos Barraza,VERIFICADO,xl,,
+2014-002,2014,Primera B Metropolitana,,,2014-08-12,Atlanta,1,2,Chacarita Juniors,Don León Kolbowsky,VERIFICADO,xl,,
+2014-003,2014,Primera B Metropolitana,,,2014-08-16,Almirante Brown,3,1,Atlanta,Fragata Presidente Sarmiento,VERIFICADO,xl,,
+2014-004,2014,Primera B Metropolitana,,,2014-08-22,Atlanta,0,1,Estudiantes,Don León Kolbowsky,VERIFICADO,xl,,
+2014-005,2014,Primera B Metropolitana,,,2014-08-25,Brown de Adrogué,2,0,Atlanta,Lorenzo Arandilla,VERIFICADO,xl,,
+2014-006,2014,Primera B Metropolitana,,,2014-08-29,Atlanta,5,3,Deportivo Merlo,Don León Kolbowsky,VERIFICADO,xl,,
+2014-007,2014,Primera B Metropolitana,,,2014-09-01,Villa Dálmine,1,0,Atlanta,El Coliseo de Mitre y Puccini,VERIFICADO,xl,,
+2014-008,2014,Primera B Metropolitana,,,2014-09-06,Atlanta,0,3,Deportivo Español,Don León Kolbowsky,VERIFICADO,xl,,
+2014-009,2014,Primera B Metropolitana,,,2014-09-13,Tristán Suárez,1,0,Atlanta,20 de Octubre,VERIFICADO,xl,,
+2014-010,2014,Primera B Metropolitana,,,2014-09-20,Atlanta,1,1,Colegiales,Don León Kolbowsky,VERIFICADO,xl,,
+2014-011,2014,Primera B Metropolitana,,,2014-09-27,Atlanta,1,0,Fénix,Don León Kolbowsky,VERIFICADO,xl,,
+2014-012,2014,Primera B Metropolitana,,,2014-10-02,Chacarita Juniors,1,0,Atlanta,Chacarita Juniors,VERIFICADO,xl,,
+2014-013,2014,Primera B Metropolitana,,,2014-10-07,Atlanta,2,1,Almirante Brown,Don León Kolbowsky,VERIFICADO,xl,,
+2014-014,2014,Primera B Metropolitana,,,2014-10-12,Estudiantes,0,0,Atlanta,Ciudad de Caseros,VERIFICADO,xl,,
+2014-015,2014,Primera B Metropolitana,,,2014-10-18,Atlanta,1,1,Brown de Adrogué,Don León Kolbowsky,VERIFICADO,xl,,
+2014-016,2014,Primera B Metropolitana,,,2014-10-21,Deportivo Merlo,1,0,Atlanta,José Manuel Moreno,VERIFICADO,xl,,
+2014-017,2014,Primera B Metropolitana,,,2014-10-26,Atlanta,4,1,Villa Dálmine,Don León Kolbowsky,VERIFICADO,xl,,
+2014-018,2014,Primera B Metropolitana,,,2014-11-01,Deportivo Español,2,0,Atlanta,Nueva España,VERIFICADO,xl,,
+2014-019,2014,Primera B Metropolitana,,,2014-11-08,Atlanta,0,1,Tristán Suárez,Don León Kolbowsky,VERIFICADO,xl,,
+2014-020,2014,Primera B Metropolitana,,,2014-11-17,Colegiales,1,1,Atlanta,Colegiales,VERIFICADO,xl,,
+2015-001,2015,Primera B Metropolitana,,,2015-02-15,Deportivo Español,0,2,Atlanta,Nueva España,FUENTE_UNICA,xl,,
+2015-002,2015,Primera B Metropolitana,,,2015-02-21,Atlanta,1,0,Comunicaciones,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-003,2015,Primera B Metropolitana,,,2015-02-28,Deportivo Armenio,1,0,Atlanta,Armenia,FUENTE_UNICA,xl,,
+2015-004,2015,Primera B Metropolitana,,,2015-03-07,Flandria,2,1,Atlanta,Carlos V,FUENTE_UNICA,xl,,
+2015-005,2015,Primera B Metropolitana,,,2015-03-10,Atlanta,2,1,Colegiales,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-006,2015,Primera B Metropolitana,,,2015-03-14,Brown de Adrogué,4,1,Atlanta,Lorenzo Arandilla,FUENTE_UNICA,xl,,
+2015-007,2015,Primera B Metropolitana,,,2015-03-21,Atlanta,2,2,Deportivo Merlo,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-008,2015,Primera B Metropolitana,,,2015-03-30,UAI Urquiza,2,0,Atlanta,Monumental de Villa Lynch,FUENTE_UNICA,xl,,
+2015-009,2015,Primera B Metropolitana,,,2015-04-04,Atlanta,5,1,Almirante Brown,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-010,2015,Primera B Metropolitana,,,2015-04-13,Estudiantes,2,2,Atlanta,Ciudad de Caseros,FUENTE_UNICA,xl,,
+2015-011,2015,Primera B Metropolitana,,,2015-04-18,Atlanta,2,0,Deportivo Riestra,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-012,2015,Primera B Metropolitana,,,2015-04-26,Acassuso,1,1,Atlanta,Ciudad de Vicente López,FUENTE_UNICA,xl,,
+2015-013,2015,Primera B Metropolitana,,,2015-05-02,Atlanta,3,1,Barracas Central,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-014,2015,Primera B Metropolitana,,,2015-05-05,Defensores de Belgrano,1,0,Atlanta,Juan Pasquale,FUENTE_UNICA,xl,,
+2015-015,2015,Primera B Metropolitana,,,2015-05-09,Atlanta,0,3,Villa San Carlos,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-016,2015,Primera B Metropolitana,,,2015-05-23,Platense,1,4,Atlanta,Ciudad de Vicente López,FUENTE_UNICA,xl,,
+2015-017,2015,Primera B Metropolitana,,,2015-06-02,Atlanta,2,0,Tristán Suárez,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-018,2015,Primera B Metropolitana,,,2015-06-06,Deportivo Morón,0,1,Atlanta,Nuevo Francisco Urbano,FUENTE_UNICA,xl,,
+2015-019,2015,Primera B Metropolitana,,,2015-06-13,Atlanta,0,0,Fénix,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-020,2015,Primera B Metropolitana,,,2015-06-21,Sportivo Italiano,4,1,Atlanta,República de Italia,FUENTE_UNICA,xl,,
+2015-021,2015,Primera B Metropolitana,,,2015-06-28,Atlanta,2,0,Almagro,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2015-022,2015,Primera B Metropolitana,,,2015-07-03,Atlanta,0,1,Deportivo Español,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-001,2018/19,Primera B Metropolitana,,,2018-08-18,Atlanta,4,0,Tristán Suárez,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-002,2018/19,Primera B Metropolitana,,,2018-08-25,Atlanta,3,0,San Miguel,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-003,2018/19,Primera B Metropolitana,,,2018-08-29,Deportivo Español,0,1,Atlanta,Nueva España,FUENTE_UNICA,xl,,
+2018-19-004,2018/19,Primera B Metropolitana,,,2018-09-04,Atlanta,0,1,Deportivo Riestra,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-005,2018/19,Primera B Metropolitana,,,2018-09-08,Acassuso,1,0,Atlanta,República de Italia,FUENTE_UNICA,xl,,
+2018-19-006,2018/19,Primera B Metropolitana,,,2018-09-15,Atlanta,1,1,Flandria,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-007,2018/19,Primera B Metropolitana,,,2018-09-21,UAI Urquiza,0,2,Atlanta,Monumental de Villa Lynch,FUENTE_UNICA,xl,,
+2018-19-008,2018/19,Primera B Metropolitana,,,2018-09-29,Atlanta,4,3,Estudiantes,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-009,2018/19,Primera B Metropolitana,,,2018-10-04,Barracas Central,0,0,Atlanta,Claudio Chiqui Tapia,FUENTE_UNICA,xl,,
+2018-19-010,2018/19,Primera B Metropolitana,,,2018-11-21,All Boys,2,3,Atlanta,Islas Malvinas,FUENTE_UNICA,xl,,
+2018-19-011,2018/19,Primera B Metropolitana,,,2018-10-20,Atlanta,2,0,Fénix,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-012,2018/19,Primera B Metropolitana,,,2018-10-28,Sacachispas,0,0,Atlanta,Beto Larrosa,FUENTE_UNICA,xl,,
+2018-19-013,2018/19,Primera B Metropolitana,,,2018-11-03,Atlanta,2,1,Almirante Brown,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-014,2018/19,Primera B Metropolitana,,,2018-11-10,Defensores Unidos,2,1,Atlanta,Gigante de Villa Fox,FUENTE_UNICA,xl,,
+2018-19-015,2018/19,Primera B Metropolitana,,,2018-11-17,Atlanta,3,1,J. J. de Urquiza,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-016,2018/19,Primera B Metropolitana,,,2018-11-27,Colegiales,0,0,Atlanta,Libertarios Unidos,FUENTE_UNICA,xl,,
+2018-19-017,2018/19,Primera B Metropolitana,,,2018-12-03,Atlanta,3,0,Comunicaciones,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-018,2018/19,Primera B Metropolitana,,,2018-12-11,Talleres (RdE),0,4,Atlanta,Talleres,FUENTE_UNICA,xl,,
+2018-19-019,2018/19,Primera B Metropolitana,,,2019-01-26,Tristán Suárez,2,2,Atlanta,20 de Octubre,FUENTE_UNICA,xl,,
+2018-19-020,2018/19,Primera B Metropolitana,,,2019-02-02,San Miguel,1,1,Atlanta,Malvinas Argentinas,FUENTE_UNICA,xl,,
+2018-19-021,2018/19,Primera B Metropolitana,,,2019-02-05,Atlanta,6,1,Deportivo Español,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-022,2018/19,Primera B Metropolitana,,,2019-02-12,Deportivo Riestra,2,1,Atlanta,Guillermo Laza,FUENTE_UNICA,xl,,
+2018-19-023,2018/19,Primera B Metropolitana,,,2019-02-17,Atlanta,0,1,Acassuso,Don León Kolbowsky,FUENTE_UNICA,xl,,
+2018-19-024,2018/19,Primera B Metropolitana,,,2019-02-24,Flandria,2,2,Atlanta,Carlos V,FUENTE_UNICA,xl,,
+2024-030,2024,Primera Nacional,Zona B,12,2024-04-20,Atlanta,3,0,Almagro,Don León Kolbowsky,VERIFICADO,lan,,
+2024-031,2024,Primera Nacional,Zona B,16,2024-05-19,Atlanta,2,0,Atlético de Rafaela,Don León Kolbowsky,VERIFICADO,lan,,
+2024-032,2024,Primera Nacional,Zona B,21,2024-06-30,Colón,1,1,Atlanta,Brigadier Estanislao López,VERIFICADO,lan,,
+2024-033,2024,Primera Nacional,Zona B,34,2024-09-30,Atlanta,2,0,San Telmo,Don León Kolbowsky,VERIFICADO,lan,,
+2023-001,2023,Primera Nacional,Zona B,1,2023-02-10,Estudiantes (BA),2,0,Atlanta,Ciudad de Caseros,VERIFICADO,wiki,,
+2023-002,2023,Primera Nacional,Zona B,2,2023-02-20,Atlanta,0,0,Atlético de Rafaela,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-003,2023,Primera Nacional,Zona B,3,2023-02-25,Deportivo Madryn,0,1,Atlanta,Abel Sastre,VERIFICADO,wiki,,
+2023-004,2023,Primera Nacional,Zona B,4,2023-03-05,Atlanta,2,1,Villa Dálmine,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-005,2023,Primera Nacional,Zona B,5,2023-03-12,Deportivo Maipú,1,0,Atlanta,Omar Higinio Sperdutti,VERIFICADO,wiki,,
+2023-006,2023,Primera Nacional,Zona B,7,2023-03-26,Chaco For Ever,1,1,Atlanta,Juan Alberto García,VERIFICADO,wiki,,
+2023-007,2023,Primera Nacional,Zona B,8,2023-04-03,Atlanta,0,1,Mitre (SdE),Don León Kolbowsky,VERIFICADO,wiki,,
+2023-008,2023,Primera Nacional,Zona B,9,2023-04-08,Chacarita Juniors,1,1,Atlanta,Chacarita Juniors,VERIFICADO,wiki,,
+2023-009,2023,Primera Nacional,Zona B,10,2023-04-17,Atlanta,3,2,Tristán Suárez,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-010,2023,Primera Nacional,Zona B,11,2023-04-22,Aldosivi,0,1,Atlanta,José María Minella,VERIFICADO,wiki,,
+2023-011,2023,Primera Nacional,Zona B,12,2023-04-30,Racing (C),1,1,Atlanta,Miguel Sancho,VERIFICADO,wiki,,
+2023-012,2023,Primera Nacional,Zona B,13,2023-05-08,Atlanta,1,1,Deportivo Riestra,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-013,2023,Primera Nacional,Zona B,14,2023-05-14,Ferro Carril Oeste,2,0,Atlanta,Arquitecto Ricardo Etcheverri,VERIFICADO,wiki,,
+2023-014,2023,Primera Nacional,Zona B,15,2023-05-22,Atlanta,1,2,Gimnasia y Esgrima (J),Don León Kolbowsky,VERIFICADO,wiki,,
+2023-015,2023,Primera Nacional,Zona B,16,2023-05-27,Quilmes,1,2,Atlanta,Centenario Ciudad de Quilmes,VERIFICADO,wiki,,
+2023-016,2023,Primera Nacional,Zona B,17,2023-06-05,Atlanta,1,2,Brown de Adrogué,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-017,2023,Primera Nacional,Zona B,19,2023-06-25,Atlético de Rafaela,1,0,Atlanta,Nuevo Monumental,VERIFICADO,wiki,,
+2023-018,2023,Primera Nacional,Zona B,20,2023-07-03,Atlanta,1,1,Deportivo Madryn,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-019,2023,Primera Nacional,Zona B,21,2023-07-08,Villa Dálmine,0,2,Atlanta,El Coliseo de Mitre y Puccini,VERIFICADO,wiki,,
+2023-020,2023,Primera Nacional,Zona B,22,2023-07-17,Atlanta,1,3,Deportivo Maipú,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-021,2023,Primera Nacional,Zona B,23,2023-07-22,Independiente Rivadavia,1,1,Atlanta,Bautista Gargantini,VERIFICADO,wiki,,
+2023-022,2023,Primera Nacional,Zona B,25,2023-08-06,Mitre (SdE),2,0,Atlanta,Doctores José y Antonio Castiglione,VERIFICADO,wiki,,
+2023-023,2023,Primera Nacional,Zona B,26,2023-08-19,Atlanta,0,1,Chacarita Juniors,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-024,2023,Primera Nacional,Zona B,27,2023-08-26,Tristán Suárez,1,0,Atlanta,20 de Octubre,VERIFICADO,wiki,,
+2023-025,2023,Primera Nacional,Zona B,28,2023-09-05,Atlanta,0,0,Aldosivi,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-026,2023,Primera Nacional,Zona B,29,2023-09-10,Atlanta,2,2,Racing (C),Don León Kolbowsky,VERIFICADO,wiki,,
+2023-027,2023,Primera Nacional,Zona B,30,2023-09-15,Deportivo Riestra,1,0,Atlanta,Guillermo Laza,VERIFICADO,wiki,,
+2023-028,2023,Primera Nacional,Zona B,31,2023-09-24,Atlanta,1,1,Ferro Carril Oeste,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-029,2023,Primera Nacional,Zona B,33,2023-10-07,Atlanta,0,1,Quilmes,Don León Kolbowsky,VERIFICADO,wiki,,
+2023-030,2023,Primera Nacional,Zona B,34,2023-10-15,Brown de Adrogué,2,1,Atlanta,Lorenzo Arandilla,VERIFICADO,wiki,,
+2023-031,2023,Primera Nacional,Zona B,18,2023-06-19,Atlanta,3,2,Estudiantes (BA),Don León Kolbowsky,VERIFICADO,lan,,
+2023-032,2023,Primera Nacional,Zona B,24,2023-07-30,Atlanta,4,0,Chaco For Ever,Don León Kolbowsky,VERIFICADO,lan,,
+2016-17-001,2016/17,Reducido - Cuartos de final (partido único),No aplica,Cuartos,2017-07-04,Atlanta,0,1,Deportivo Español,León Kolbowski,PENDIENTE,csv,https://www.transfermarkt.com.ar/club-atletico-atlanta/spielplan/verein/8057/saison_id/2016,El usuario informa eliminación en esta instancia; falta identificar el goleador rival. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-002,2016/17,Primera B Metropolitana,Única,1,,Colegiales,0,3,Atlanta,Libertarios Unidos,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-003,2016/17,Primera B Metropolitana,Única,10,,Atlanta,0,0,Platense,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-004,2016/17,Primera B Metropolitana,Única,12,,Atlanta,0,1,Estudiantes (BA),León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-005,2016/17,Primera B Metropolitana,Única,13,,Defensores de Belgrano,0,0,Atlanta,Juan Pasquale,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-006,2016/17,Primera B Metropolitana,Única,14,,Atlanta,1,1,Deportivo Riestra,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-007,2016/17,Primera B Metropolitana,Única,15,,Tristán Suárez,0,0,Atlanta,20 de Octubre,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-008,2016/17,Primera B Metropolitana,Única,16,,Atlanta,3,1,Excursionistas,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-009,2016/17,Primera B Metropolitana,Única,17,,Deportivo Morón,2,2,Atlanta,Nuevo Francisco Urbano,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-010,2016/17,Primera B Metropolitana,Única,18,,Atlanta,2,0,Acassuso,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-011,2016/17,Primera B Metropolitana,Única,19,,UAI Urquiza,1,0,Atlanta,Monumental de Villa Lynch,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-012,2016/17,Primera B Metropolitana,Única,2,,Atlanta,1,0,Talleres (RE),León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-013,2016/17,Primera B Metropolitana,Única,20,,Atlanta,2,0,Colegiales,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-014,2016/17,Primera B Metropolitana,Única,21,,Talleres (RE),0,1,Atlanta,Pablo Comelli,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-015,2016/17,Primera B Metropolitana,Única,22,,Atlanta,1,0,San Telmo,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-016,2016/17,Primera B Metropolitana,Única,23,,Almirante Brown,1,1,Atlanta,Fragata Presidente Sarmiento,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-017,2016/17,Primera B Metropolitana,Única,24,,Atlanta,1,2,Deportivo Español,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-018,2016/17,Primera B Metropolitana,Única,25,,Villa San Carlos,1,0,Atlanta,Genacio Salice,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-019,2016/17,Primera B Metropolitana,Única,26,,Atlanta,0,1,Comunicaciones,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-020,2016/17,Primera B Metropolitana,Única,27,,Barracas Central,3,1,Atlanta,Claudio Chiqui Tapia,PENDIENTE,csv,,Goleadores informados por el usuario. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-021,2016/17,Primera B Metropolitana,Única,28,,Atlanta,0,0,Fénix,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-022,2016/17,Primera B Metropolitana,Única,29,,Platense,1,2,Atlanta,Ciudad de Vicente López,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-023,2016/17,Primera B Metropolitana,Única,3,,San Telmo,2,3,Atlanta,Dr. Osvaldo Baletto,PENDIENTE,csv,,Goles: detalle suministrado por el usuario. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-024,2016/17,Primera B Metropolitana,Única,31,,Estudiantes (BA),2,0,Atlanta,Ciudad de Caseros,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-025,2016/17,Primera B Metropolitana,Única,32,,Atlanta,0,0,Defensores de Belgrano,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-026,2016/17,Primera B Metropolitana,Única,33,,Deportivo Riestra,1,0,Atlanta,Guillermo Laza,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-027,2016/17,Primera B Metropolitana,Única,34,,Atlanta,1,1,Tristán Suárez,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-028,2016/17,Primera B Metropolitana,Única,35,,Excursionistas,1,2,Atlanta,Coliseo del Bajo Belgrano,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-029,2016/17,Primera B Metropolitana,Única,36,,Atlanta,0,0,Deportivo Morón,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-030,2016/17,Primera B Metropolitana,Única,37,,Acassuso,1,1,Atlanta,República de Italia (Sportivo Italiano),PENDIENTE,csv,,Acassuso hizo de local en cancha de Sportivo Italiano. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-031,2016/17,Primera B Metropolitana,Única,38,,Atlanta,2,0,UAI Urquiza,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-032,2016/17,Primera B Metropolitana,Única,4,,Atlanta,1,0,Almirante Brown,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-033,2016/17,Primera B Metropolitana,Única,5,,Deportivo Español,1,0,Atlanta,Nueva España,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-034,2016/17,Primera B Metropolitana,Única,6,,Atlanta,0,0,Villa San Carlos,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-035,2016/17,Primera B Metropolitana,Única,7,,Comunicaciones,0,0,Atlanta,Alfredo Ramos,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-036,2016/17,Primera B Metropolitana,Única,8,,Atlanta,1,0,Barracas Central,León Kolbowski,PENDIENTE,csv,,Goleador informado por el usuario. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2016-17-037,2016/17,Primera B Metropolitana,Única,9,,Fénix,1,3,Atlanta,Malvinas Argentinas (San Miguel),PENDIENTE,csv,,Fénix jugó como local en San Miguel; nombre de estadio no confirmado. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-001,2017/18,Primera B Metropolitana,Única,1,,Atlanta,1,0,Colegiales,León Kolbowski,PENDIENTE,csv,,AFA otorgó 1-0 por mala inclusión; el partido en campo terminó 0-0. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-002,2017/18,Primera B Metropolitana,Única,10,,Atlanta,1,0,San Miguel,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-003,2017/18,Primera B Metropolitana,Única,11,,Estudiantes (BA),1,0,Atlanta,Ciudad de Caseros,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-004,2017/18,Primera B Metropolitana,Única,12,,Atlanta,1,0,Tristán Suárez,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-005,2017/18,Primera B Metropolitana,Única,13,,Barracas Central,3,1,Atlanta,Claudio Chiqui Tapia,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-006,2017/18,Primera B Metropolitana,Única,14,,Atlanta,0,2,Sacachispas,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-007,2017/18,Primera B Metropolitana,Única,15,,Acassuso,1,1,Atlanta,República de Italia (Sportivo Italiano),PENDIENTE,csv,,Acassuso hizo de local en cancha de Sportivo Italiano. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-008,2017/18,Primera B Metropolitana,Única,16,,Atlanta,0,1,Platense,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-009,2017/18,Primera B Metropolitana,Única,17,,Defensores de Belgrano,0,0,Atlanta,Juan Pasquale,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-010,2017/18,Primera B Metropolitana,Única,18,,Colegiales,3,3,Atlanta,Libertarios Unidos,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-011,2017/18,Primera B Metropolitana,Única,19,,Talleres (RE),0,1,Atlanta,Pablo Comelli,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-012,2017/18,Primera B Metropolitana,Única,2,,Atlanta,2,0,Talleres (RE),León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-013,2017/18,Primera B Metropolitana,Única,20,,Atlanta,1,2,San Telmo,León Kolbowski,PENDIENTE,csv,,Goleadores informados por el usuario. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-014,2017/18,Primera B Metropolitana,Única,21,,Almirante Brown,2,1,Atlanta,Fragata Presidente Sarmiento,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-015,2017/18,Primera B Metropolitana,Única,22,,Atlanta,2,0,Deportivo Español,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-016,2017/18,Primera B Metropolitana,Única,23,,Fénix,3,1,Atlanta,Malvinas Argentinas (San Miguel),PENDIENTE,csv,,Fénix hizo de local en San Miguel; nombre de estadio pendiente de confirmación. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-017,2017/18,Primera B Metropolitana,Única,24,,Atlanta,0,1,UAI Urquiza,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-018,2017/18,Primera B Metropolitana,Única,25,,Villa San Carlos,0,0,Atlanta,Genacio Salice,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-019,2017/18,Primera B Metropolitana,Única,26,,Atlanta,2,1,Comunicaciones,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-020,2017/18,Primera B Metropolitana,Única,27,,San Miguel,0,0,Atlanta,Malvinas Argentinas,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-021,2017/18,Primera B Metropolitana,Única,28,,Atlanta,1,1,Estudiantes (BA),León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-022,2017/18,Primera B Metropolitana,Única,29,,Tristán Suárez,1,0,Atlanta,20 de Octubre,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-023,2017/18,Primera B Metropolitana,Única,3,,San Telmo,1,2,Atlanta,Dr. Osvaldo Baletto,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-024,2017/18,Primera B Metropolitana,Única,30,,Atlanta,1,0,Barracas Central,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-025,2017/18,Primera B Metropolitana,Única,31,,Sacachispas,2,1,Atlanta,Roberto Larrosa,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-026,2017/18,Primera B Metropolitana,Única,32,,Atlanta,2,1,Acassuso,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-027,2017/18,Primera B Metropolitana,Única,33,,Platense,2,1,Atlanta,Ciudad de Vicente López,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-028,2017/18,Primera B Metropolitana,Única,34,,Atlanta,2,0,Defensores de Belgrano,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-029,2017/18,Primera B Metropolitana,Única,4,,Atlanta,0,1,Almirante Brown,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-030,2017/18,Primera B Metropolitana,Única,5,,Deportivo Español,0,1,Atlanta,Nueva España,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-031,2017/18,Primera B Metropolitana,Única,6,,Atlanta,2,2,PENDIENTE (usuario: “Almagro / Fénix”; fixture externo: Estudiantes BA),León Kolbowski,CONFLICTO,csv,https://es.wikipedia.org/wiki/Campeonato_de_Primera_B_2017-18_(Argentina),El listado del usuario consigna Atlanta 2-2 Almagro/Fénix. El fixture de la competición consultado consigna Atlanta 0-1 Estudiantes BA en la fecha 6. No se reemplaza una versión por la otra sin resolver la discrepancia.
+2017-18-032,2017/18,Primera B Metropolitana,Única,7,,UAI Urquiza,0,0,Atlanta,Monumental de Villa Lynch,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-033,2017/18,Primera B Metropolitana,Única,8,,Atlanta,1,1,Villa San Carlos,León Kolbowski,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2017-18-034,2017/18,Primera B Metropolitana,Única,9,,Comunicaciones,0,2,Atlanta,Alfredo Ramos,PENDIENTE,csv,,Marcador y localía según listado aportado por el usuario; fecha calendario y goleadores no informados. Información transcripta del listado aportado por el usuario; falta fuente externa con URL para verificar resultado y/o goleadores.
+2025-001,2025,Primera Nacional,Zona A,1,2025-02-10,Atlanta,1,0,Deportivo Madryn,Don León Kolbowski,FUENTE_UNICA,https://caatlanta.com.ar/futbol-profesional/triunfo-bohemio-8/,,
+2025-002,2025,Primera Nacional,Zona A,2,2025-02-16,Alvarado,0,0,Atlanta,José María Minella,FUENTE_UNICA,https://caatlanta.com.ar/futbol-profesional/iguadad-en-mar-del-plata/,,
+2025-003,2025,Primera Nacional,Zona A,3,2025-02-22,Atlanta,0,0,All Boys,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2025/02/22/atlanta-vs-all-boys-en-vivo-por-la-zona-a-fecha-3-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2025-004,2025,Primera Nacional,Zona A,4,2025-02-28,Arsenal,1,1,Atlanta,Julio Humberto Grondona,FUENTE_UNICA,https://caatlanta.com.ar/futbol-profesional/cinco-conclusiones-del-empate-de-atlanta-contra-arsenal/,,
+2025-005,2025,Primera Nacional,Zona A,5,2025-03-11,Atlanta,1,0,Colegiales,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2025/03/11/atlanta-vs-colegiales-en-vivo-por-la-zona-a-fecha-5-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2025-006,2025,Primera Nacional,Zona A,6,2025-03-17,Atlanta,2,1,Los Andes,Don León Kolbowski,VERIFICADO,https://caatlanta.com.ar/futbol-profesional/cinco-claves-del-triunfo-de-atlanta-contra-los-andes/,https://tn.com.ar/deportes/futbol/2025/03/17/atlanta-vs-los-andes-en-vivo-por-la-zona-a-fecha-6-de-la-primera-nacional-hora-donde-ver-y-formaciones/,
+2025-007,2025,Primera Nacional,Zona A,7,2025-03-23,Racing (Córdoba),1,1,Atlanta,Miguel Sancho,FUENTE_UNICA,https://caatlanta.com.ar/futbol-profesional/cinco-claves-para-rescatar-del-empate-de-atlanta-contra-racing-de-cordoba/,,
+2025-008,2025,Primera Nacional,Zona A,8,2025-03-31,Atlanta,2,0,Quilmes,Don León Kolbowski,VERIFICADO,https://caatlanta.com.ar/futbol-profesional/comienza-una-nueva-ilusion-la-previa-entre-atlanta-y-quilmes,https://www.tycsports.com/primera-nacional/atlanta-vs-quilmes-en-vivo-hora-donde-ver-y-formaciones-id645491.html,
+2025-009,2025,Primera Nacional,Zona A,9,2025-04-05,San Miguel,0,0,Atlanta,Malvinas Argentinas,FUENTE_UNICA,https://www.transfermarkt.com.ar/club-atletico-atlanta/spielplan/verein/8057/saison_id/2024,,
+2025-010,2025,Primera Nacional,Zona A,10,2025-04-14,Atlanta,1,0,Almagro,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2025/04/14/atlanta-vs-almagro-en-vivo-por-la-zona-a-fecha-10-de-la-primera-nacional-hora-donde-ver-y-formaciones/?outputType=amp,,
+2025-011,2025,Primera Nacional,Zona A,11,2025-04-22,Ferro,0,1,Atlanta,Arquitecto Ricardo Etcheverry,VERIFICADO,https://www.tycsports.com/primera-nacional/ferro-vs-atlanta-en-vivo-hora-donde-ver-y-formaciones-id651755.html,https://caatlanta.com.ar/futbol-profesional/cinco-claves-para-celebrar-del-triunfo-de-atlanta-contra-ferro/,
+2025-012,2025,Primera Nacional,Zona A,12,2025-04-26,Atlanta,1,1,Patronato,Don León Kolbowski,FUENTE_UNICA,https://caatlanta.com.ar/futbol-profesional/la-previa-entre-atlanta-y-patronato-3/,,
+2025-013,2025,Primera Nacional,Zona A,13,2025-05-03,Güemes,2,0,Atlanta,Arturo Miranda,FUENTE_UNICA,https://caatlanta.com.ar/futbol-profesional/la-previa-entre-atlanta-y-guemes-3/,,
+2025-014,2025,Primera Nacional,Zona A,14,2025-05-11,Atlanta,3,1,San Martín (Tucumán),Don León Kolbowski,VERIFICADO,https://www.tycsports.com/primera-nacional/atlanta-vs-san-martin-t-en-vivo-hora-donde-ver-y-formaciones-id656468.html,https://caatlanta.com.ar/futbol-profesional/la-previa-entre-atlanta-y-san-martin-de-tucuman-2/,
+2025-015,2025,Primera Nacional,Zona A,15,2025-05-18,Tristán Suárez,0,0,Atlanta,20 de Octubre,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2025/05/17/t-suarez-vs-atlanta-en-vivo-por-la-zona-a-fecha-15-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2025-016,2025,Primera Nacional,Zona A,16,2025-05-24,Atlanta,1,0,Gimnasia y Tiro,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2025/05/24/atlanta-vs-g-y-tiro-en-vivo-por-la-zona-a-fecha-16-de-la-primera-nacional-hora-donde-ver-y-formaciones/?outputType=amp,,
+2025-017,2025,Primera Nacional,Zona A,17,2025-06-01,Deportivo Maipú,0,1,Atlanta,Omar Higinio Sperdutti,FUENTE_UNICA,https://www.tycsports.com/primera-nacional/deportivo-maipu-vs-atlanta-en-vivo-hora-donde-ver-y-formaciones-id664824.html,,
+2025-018,2025,Primera Nacional,Zona A,18,2025-06-15,Deportivo Madryn,1,1,Atlanta,Abel Sastre,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2025/06/15/dep-madryn-vs-atlanta-en-vivo-por-la-zona-a-fecha-18-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2025-019,2025,Primera Nacional,Zona A,19,2025-06-22,Atlanta,0,2,Alvarado,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2025/06/22/atlanta-vs-alvarado-en-vivo-por-la-zona-a-fecha-19-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2025-020,2025,Primera Nacional,Zona A,20,2025-06-29,All Boys,0,0,Atlanta,Islas Malvinas,FUENTE_UNICA,https://www.transfermarkt.com.ar/club-atletico-atlanta/spielplan/verein/8057/saison_id/2024,,
+2025-021,2025,Primera Nacional,Zona A,21,2025-07-06,Atlanta,4,0,Arsenal,Don León Kolbowski,CONFLICTO,https://www.youtube.com/watch?v=MkErjDEHvUo,https://www.fotmob.com/es/matches/arsenal-sarandi-vs-atlanta/bhipe29,Los autores coinciden. Hay diferencias de 1 minuto en dos registros: TyC YouTube 4' y 72'; FotMob 5' y 73'. Los otros dos goles figuran 49' y 68'.
+2025-022,2025,Primera Nacional,Zona A,22,2025-07-12,Colegiales,2,0,Atlanta,Libertarios Unidos,FUENTE_UNICA,https://www.transfermarkt.com.ar/club-atletico-atlanta/spielplan/verein/8057/saison_id/2024,,Goleadores de Colegiales no corroborados.
+2025-023,2025,Primera Nacional,Zona A,23,2025-07-19,Los Andes,3,0,Atlanta,Eduardo Gallardón,VERIFICADO,https://tn.com.ar/deportes/futbol/2025/07/19/los-andes-vs-atlanta-en-vivo-por-la-zona-a-fecha-23-de-la-primera-nacional-hora-donde-ver-y-formaciones//,https://www.losandesoficial.com/los-andes-3-0-atlanta,
+2025-024,2025,Primera Nacional,Zona A,24,2025-07-28,Atlanta,2,0,Racing (Córdoba),Don León Kolbowski,VERIFICADO,https://tn.com.ar/deportes/futbol/2025/07/28/atlanta-vs-racing-cba-en-vivo-por-la-zona-a-fecha-24-de-la-primera-nacional-hora-donde-ver-y-formaciones/,https://caatlanta.com.ar/futbol-profesional/atlanta-y-un-triunfo-ante-racing-de-cordoba-para-recuperarse-con-todo/,
+2025-025,2025,Primera Nacional,Zona A,25,2025-08-05,Quilmes,2,1,Atlanta,Centenario Ciudad de Quilmes,VERIFICADO,https://www.tycsports.com/video/primera-nacional/quilmes-2-1-atlanta-primera-nacional-fecha-25-zona-a-id869009.html,https://www.espn.com.pe/futbol/partido/_/juegoId/728671,
+2025-026,2025,Primera Nacional,Zona A,26,2025-08-10,Atlanta,1,1,San Miguel,Don León Kolbowski,VERIFICADO,https://promediosinfo.com/atlanta_san-miguel_2025-08-10_1331438_kuLAjJfPIV4_728680.html,https://www.365scores.com/es/football/match/primera-nacional-419/atlanta-ca-san-miguel-7104-11898-419,
+2025-027,2025,Primera Nacional,Zona A,27,2025-08-17,Almagro,0,0,Atlanta,Tres de Febrero,FUENTE_UNICA,https://www.transfermarkt.com.ar/club-atletico-atlanta/spielplan/verein/8057/saison_id/2024,,
+2025-028,2025,Primera Nacional,Zona A,28,2025-08-23,Atlanta,2,1,Ferro,Don León Kolbowski,VERIFICADO,https://tn.com.ar/deportes/futbol/2025/08/23/atlanta-vs-ferro-en-vivo-por-la-zona-a-fecha-28-de-la-primera-nacional-hora-donde-ver-y-formaciones/,https://caatlanta.com.ar/futbol-profesional/atlanta-festejo-ante-ferro-y-suena-con-todo/,
+2025-029,2025,Primera Nacional,Zona A,29,2025-08-31,Patronato,0,0,Atlanta,Presbítero Bartolomé Grella,FUENTE_UNICA,https://caatlanta.com.ar/futbol-profesional/la-previa-entre-atlanta-y-patronato-4/,,
+2025-030,2025,Primera Nacional,Zona A,30,2025-09-06,Atlanta,1,0,Güemes,Don León Kolbowski,VERIFICADO,https://tn.com.ar/deportes/futbol/2025/09/06/atlanta-vs-guemes-se-en-vivo-por-la-zona-a-fecha-30-de-la-primera-nacional-hora-donde-ver-y-formaciones/,https://caatlanta.com.ar/futbol-profesional/atlanta-le-gano-a-guemes-y-puso-otro-ladrillo-en-la-pared/,
+2025-031,2025,Primera Nacional,Zona A,31,2025-09-14,San Martín (Tucumán),4,0,Atlanta,La Ciudadela,VERIFICADO,https://www.tycsports.com/primera-nacional/argentina-campeonato-primera-nacional-2025-san-martin-t-vs-atlanta-zona-a-fecha-31-id685735.html,https://canchallena.lanacion.com.ar/futbol/primera-nacional-2025/san-martin-tucuman-atlanta-m86r7tzmb4r0q3dh5bausvtg/,
+2025-032,2025,Primera Nacional,Zona A,32,2025-09-20,Atlanta,1,0,Tristán Suárez,Don León Kolbowski,VERIFICADO,https://www.tycsports.com/primera-nacional/argentina-campeonato-primera-nacional-2025-atlanta-vs-tristan-suarez-zona-a-fecha-32-id686860.html,https://www.youtube.com/watch?v=gsjXde0wTGo,
+2025-033,2025,Primera Nacional,Zona A,33,2025-09-26,Gimnasia y Tiro,2,2,Atlanta,El Gigante del Norte,VERIFICADO,https://www.tycsports.com/primera-nacional/argentina-campeonato-primera-nacional-2025-gimnasia-y-tiro-vs-atlanta-zona-a-fecha-33-id688289.html,https://caatlanta.com.ar/futbol-profesional/la-previa-entre-gimnasia-y-tiro-y-atlanta,
+2025-034,2025,Primera Nacional,Zona A,34,2025-10-04,Atlanta,0,3,Deportivo Maipú,Don León Kolbowski,FUENTE_UNICA,https://caatlanta.com.ar/futbol-profesional/atlanta-cerro-el-campeonato-contra-deportivo-maipu-y-ya-piensa-en-lo-que-viene/,,
+2025-035,2025,Reducido - Octavos de final,No aplica,Octavos,2025-10-11,Atlanta,3,0,Chaco For Ever,Don León Kolbowski,VERIFICADO,https://www.ascensodelinterior.com.ar/noticias/35392/atlanta-3---0-chaco-for-ever,https://futboltotal.futbol/partido/partido-atlanta-vs-chaco-for-ever-primera-nacional-2025-10-11,Las fuentes coinciden en autores; difieren en la notación/minutos. Minutos no consignados para evitar un falso acuerdo.
+2025-036,2025,Reducido - Cuartos de final (ida),No aplica,Cuartos ida,2025-10-19,Deportivo Morón,1,0,Atlanta,Nuevo Francisco Urbano,FUENTE_UNICA,https://www.transfermarkt.com.ar/club-atletico-atlanta/spielplan/verein/8057/saison_id/2024,,Atlanta no convirtió; falta identificar goleador rival.
+2025-037,2025,Reducido - Cuartos de final (vuelta),No aplica,Cuartos vuelta,2025-11-01,Atlanta,0,0,Deportivo Morón,Don León Kolbowski,FUENTE_UNICA,https://www.transfermarkt.com.ar/club-atletico-atlanta/spielplan/verein/8057/saison_id/2024,,
+2026-001,2026,Primera Nacional,Zona B,1,2026-02-16,Atlanta,1,0,Quilmes,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/02/16/atlanta-vs-quilmes-en-vivo-por-la-fecha-1-de-la-primera-nacional-hora-donde-ver-y-formaciones/?outputType=amp,,
+2026-002,2026,Primera Nacional,Zona B,2,2026-02-22,Colegiales,1,0,Atlanta,Libertarios Unidos,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/02/22/colegiales-vs-atlanta-en-vivo-por-la-fecha-2-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-003,2026,Primera Nacional,Zona B,3,2026-03-02,Atlanta,0,0,Patronato,Don León Kolbowski,VERIFICADO,https://tn.com.ar/deportes/futbol/2026/03/02/atlanta-vs-patronato-en-vivo-por-la-fecha-3-de-la-primera-nacional-hora-donde-ver-y-formaciones/,https://www.goal.com/es-ar/equipo/atlanta/partidos-resultados/b6z41ieksj9bo9pq1s3z1fegq,
+2026-004,2026,Primera Nacional,Zona B,5,2026-03-16,Atlanta,3,1,Deportivo Maipú,Don León Kolbowski,CONFLICTO,https://www.ascensodelinterior.com.ar/noticias/35840/atlanta-3---1-dep.-maip-%28mza%29,,La fecha calendario aparece como 16/03/2026 en Goal y 17/03/2026 en otras bases (GolMates/Ascenso del Interior). Se conserva 16/03 según el fixture de Goal y se deja el conflicto visible.
+2026-005,2026,Primera Nacional,Zona B,6,2026-03-22,Temperley,2,1,Atlanta,Alfredo Beranger,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/03/22/temperley-vs-atlanta-en-vivo-por-la-fecha-6-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-006,2026,Primera Nacional,Zona B,7,2026-03-28,Atlanta,0,1,Ferro,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/03/28/atlanta-vs-ferro-en-vivo-por-la-fecha-7-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-007,2026,Copa Argentina,No aplica,32avos,2026-04-01,Instituto,2,0,Atlanta,Nuevo Monumental (Atlético de Rafaela),VERIFICADO,https://tn.com.ar/deportes/futbol/2026/04/01/instituto-vs-atlanta-en-vivo-por-los-treintaidosavos-de-la-copa-argentina-hora-donde-ver-y-formaciones/,https://www.copaargentina.org/es/partido/3677_Instituto-vs-Atlanta.html,"Copa Argentina, separada de la liga. La web oficial de Copa registra Instituto 2-0 Atlanta."
+2026-008,2026,Primera Nacional,Zona B,8,2026-04-07,Atlanta,1,2,Nueva Chicago,Don León Kolbowski,FUENTE_UNICA,https://www.dataredonda.com/partidos/11621258,,
+2026-009,2026,Primera Nacional,Zona B,9,2026-04-13,San Martín (San Juan),1,2,Atlanta,Hilario Sánchez,FUENTE_UNICA,https://www.tycsports.com/primera-nacional/argentina-campeonato-primera-nacional-2026-san-martin-sj-vs-atlanta-fecha-9-id723975.html,,
+2026-010,2026,Primera Nacional,Zona B,10,2026-04-20,Atlanta,1,0,Chacarita,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/04/20/atlanta-vs-chacarita-en-vivo-por-la-fecha-10-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-011,2026,Primera Nacional,Zona B,11,2026-04-26,Güemes,0,2,Atlanta,Arturo Miranda,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/04/26/guemes-se-vs-atlanta-en-vivo-por-la-fecha-11-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-012,2026,Primera Nacional,Zona B,12,2026-05-03,Atlanta,3,1,Tristán Suárez,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/05/03/atlanta-vs-t-suarez-en-vivo-por-la-fecha-12-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-013,2026,Primera Nacional,Zona B,13,2026-05-10,Agropecuario,0,0,Atlanta,Ofelia Rosenzuaig,FUENTE_UNICA,https://www.goal.com/es-ar/equipo/atlanta/partidos-resultados/b6z41ieksj9bo9pq1s3z1fegq,,
+2026-014,2026,Primera Nacional,Zona B,14,2026-05-16,Atlanta,2,0,Atlético de Rafaela,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/05/16/atlanta-vs-at-rafaela-en-vivo-por-la-fecha-14-de-la-primera-nacional-hora-donde-ver-y-formaciones/?outputType=amp,,
+2026-015,2026,Primera Nacional,Zona B,15,2026-05-24,San Martín (Tucumán),0,1,Atlanta,La Ciudadela,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/05/24/s-martin-t-vs-atlanta-en-vivo-por-la-fecha-15-de-la-primera-nacional-hora-donde-ver-y-formaciones/?outputType=amp,,
+2026-016,2026,Primera Nacional,Zona B,16,2026-05-31,Atlanta,1,1,Gimnasia y Tiro,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/05/31/atlanta-vs-g-y-tiro-en-vivo-por-la-fecha-16-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-017,2026,Primera Nacional,Zona B,17,2026-06-06,Atlanta,3,0,Gimnasia de Jujuy,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/06/06/atlanta-vs-gimnasia-j-en-vivo-por-la-fecha-17-de-la-primera-nacional-hora-donde-ver-y-formaciones/?outputType=amp,,
+2026-018,2026,Primera Nacional,Zona B,18,2026-06-13,Midland,1,2,Atlanta,Ciudad de Libertad,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/06/13/midland-vs-atlanta-en-vivo-por-la-fecha-18-de-la-primera-nacional-hora-donde-ver-y-formaciones/?outputType=amp,,
+2026-019,2026,Primera Nacional,Zona B,4,2026-06-20,Almagro,2,0,Atlanta,Tres de Febrero,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/06/20/almagro-vs-atlanta-en-vivo-por-la-fecha-4-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,"Fecha 4 reprogramada; se ordena por fecha oficial, no por fecha calendario."
+2026-020,2026,Primera Nacional,Zona B,19,2026-07-04,Quilmes,2,1,Atlanta,Centenario Ciudad de Quilmes,VERIFICADO,https://tn.com.ar/deportes/futbol/2026/07/04/quilmes-vs-atlanta-en-vivo-por-la-fecha-19-de-la-primera-nacional-hora-donde-ver-y-formaciones/,https://canchallena.lanacion.com.ar/futbol/primera-nacional-2026/quilmes-atlanta-e5j713gln7zdd7s4tvj3lq9zo/,
+2026-021,2026,Primera Nacional,Zona B,20,2026-07-13,Atlanta,1,0,Colegiales,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/07/13/atlanta-vs-colegiales-en-vivo-por-la-fecha-20-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-022,2026,Primera Nacional,Zona B,22,2026-07-27,Atlanta,1,3,Almagro,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/07/27/atlanta-vs-almagro-en-vivo-por-la-fecha-22-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-023,2026,Primera Nacional,Zona B,23,2026-08-02,Deportivo Maipú,4,2,Atlanta,Omar Higinio Sperdutti,FUENTE_UNICA,https://www.golmates.com/es/argentina/primera-nacional/2026/resultados/deportivo-maipu-vs-atlanta-2026-08-02,,
+2026-024,2026,Primera Nacional,Zona B,24,2026-08-09,Atlanta,1,0,Temperley,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/08/09/atlanta-vs-temperley-en-vivo-por-la-fecha-24-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-025,2026,Primera Nacional,Zona B,25,2026-08-15,Ferro,3,1,Atlanta,Arquitecto Ricardo Etcheverry,VERIFICADO,https://caatlanta.com.ar/futbol-profesional/derrota-ante-ferro/,https://www.tycsports.com/primera-nacional/argentina-campeonato-primera-nacional-2026-ferro-vs-atlanta-fecha-25-id754828.html,
+2026-026,2026,Primera Nacional,Zona B,26,2026-08-22,Nueva Chicago,0,1,Atlanta,República de Mataderos,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/08/22/nva-chicago-vs-atlanta-en-vivo-por-la-fecha-26-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-027,2026,Primera Nacional,Zona B,21,2026-08-26,Patronato,2,0,Atlanta,Presbítero Bartolomé Grella,VERIFICADO,https://www.tycsports.com/primera-nacional/argentina-campeonato-primera-nacional-2026-patronato-vs-atlanta-fecha-21-id750595.html,https://www.lanacion.com.ar/deportes/canchallena/patronato-vencio-por-2-0-a-atlanta-por-la-primera-nacional-2026-nid26082026/,Fecha 21 reprogramada y disputada después de la fecha 26.
+2026-028,2026,Primera Nacional,Zona B,27,2026-08-30,Atlanta,0,1,San Martín (San Juan),Don León Kolbowski,FUENTE_UNICA,https://www.golmates.com/es/argentina/primera-nacional/2026/resultados/atlanta-vs-san-martin-san-juan-2026-08-30,,
+2026-029,2026,Primera Nacional,Zona B,28,2026-09-05,Chacarita,0,1,Atlanta,Estadio Chacarita Juniors,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/09/05/chacarita-vs-atlanta-en-vivo-por-la-fecha-28-de-la-primera-nacional-hora-donde-ver-y-formaciones/,,
+2026-030,2026,Primera Nacional,Zona B,29,2026-09-12,Atlanta,2,0,Güemes,Don León Kolbowski,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/09/12/atlanta-vs-guemes-se-en-vivo-por-la-fecha-29-de-la-primera-nacional-hora-donde-ver-y-formaciones/?outputType=amp,,
+2026-031,2026,Primera Nacional,Zona B,30,2026-09-21,Tristán Suárez,0,0,Atlanta,20 de Octubre,FUENTE_UNICA,https://www.goal.com/es-ar/equipo/atlanta/partidos-resultados/b6z41ieksj9bo9pq1s3z1fegq,,
+2026-032,2026,Primera Nacional,Zona B,31,2026-09-27,Atlanta,1,0,Agropecuario,Don León Kolbowski,FUENTE_UNICA,https://www.golmates.com/es/argentina/primera-nacional/2026/resultados/atlanta-vs-agropecuario-2026-09-27,,
+2026-033,2026,Primera Nacional,Zona B,32,2026-10-04,Atlético de Rafaela,2,3,Atlanta,Nuevo Monumental,FUENTE_UNICA,https://tn.com.ar/deportes/futbol/2026/10/04/at-rafaela-vs-atlanta-en-vivo-por-la-fecha-32-de-la-primera-nacional-hora-donde-ver-y-formaciones/?outputType=amp,,
+2026-034,2026,Primera Nacional,Zona B,33,2026-10-11,Atlanta,1,0,San Martín (Tucumán),Don León Kolbowski,VERIFICADO,https://tn.com.ar/deportes/futbol/2026/10/11/atlanta-vs-s-martin-t-en-vivo-por-la-fecha-33-de-la-primera-nacional-hora-donde-ver-y-formaciones/,https://www.sofascore.com/es/football/match/atlanta-san-martin-de-tucuman/aEjsZAw,
+2026-035,2026,Primera Nacional,Zona B,34,2026-10-16,Gimnasia y Tiro,3,1,Atlanta,El Gigante del Norte,FUENTE_UNICA,https://caatlanta.com.ar/futbol-profesional/derrota-en-salta/,,
+2026-036,2026,Primera Nacional,Zona B,35,2026-10-25,Gimnasia de Jujuy,1,2,Atlanta,23 de Agosto,VERIFICADO,https://www.golmates.com/es/argentina/primera-nacional/2026/resultados/gimnasia-y-esgrima-jujuy-vs-atlanta-2026-10-25,https://puntoredonda.com.ar/partido/1301,
+2026-037,2026,Primera Nacional,Zona B,36,2026-10-31,Atlanta,0,0,Midland,Don León Kolbowski,VERIFICADO,https://www.goal.com/es-ar/equipo/atlanta/partidos-resultados/b6z41ieksj9bo9pq1s3z1fegq,https://www.lanacion.com.ar/deportes/futbol/asi-quedo-conformada-la-final-de-la-primera-nacional-2026-nid31102026/,Última fecha de fase regular; no se incorporan partidos de reducido programados para después del 10/11/2026.

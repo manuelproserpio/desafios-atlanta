@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Desafíos del Bohemio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap">
+<style>
+:root{--bg:#f3efe3;--card:#fff;--tx:#0d1b3d;--mut:#5a6480;--bl:#0b3a8f;--nv:#071d4d;--ye:#ffd100;--ok:#14803c;--bad:#c4161c;--bd:#e3dcc8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#08122b;--card:#10204a;--tx:#f2f4fb;--mut:#9fb0d6;--bl:#7aa5ff;--bd:#22325f}}
+:root[data-theme="dark"]{--bg:#08122b;--card:#10204a;--tx:#f2f4fb;--mut:#9fb0d6;--bl:#7aa5ff;--bd:#22325f}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.os,h1,h2,.goal,.sb b,.clock,.big2,.n{font-family:Oswald,Impact,"Arial Narrow",sans-serif;letter-spacing:.5px}
+header{background:var(--nv) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='120' viewBox='0 0 300 120'%3E%3Cg fill='none' stroke='%23fff' stroke-opacity='.09' stroke-width='3'%3E%3Cpath d='M150 0v120'/%3E%3Ccircle cx='150' cy='60' r='34'/%3E%3Cpath d='M0 20h40v80H0M300 20h-40v80h40'/%3E%3C/g%3E%3C/svg%3E") center/300px 120px;color:#fff}
+header .t{padding:12px 14px 10px;display:flex;align-items:center;gap:8px}
+header h1{margin:0;font-size:21px;text-transform:uppercase}header h1 span{color:var(--ye)}
+.awning{height:22px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='22'%3E%3Cpath d='M0 0H22V10A11 11 0 0 1 0 10Z' fill='%23ffd100'/%3E%3Cpath d='M22 0H44V10A11 11 0 0 1 22 10Z' fill='%230b3a8f'/%3E%3C/svg%3E") repeat-x;margin-bottom:-12px;position:relative;z-index:1}
+main{max-width:640px;margin:0 auto;padding:22px 14px 100px}
+.tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--nv);border-top:3px solid var(--ye);padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px));z-index:5}
+.tabs button{flex:1;background:none;border:0;color:#9db4e8;font:inherit;font-size:12px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px;cursor:pointer}
+.tabs button b{font-size:20px;line-height:1}.tabs button.on{color:var(--ye);font-weight:700}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px;margin:0 0 10px}
+.card.w{border:2px solid var(--ok);box-shadow:0 0 0 3px #14803c22}.card.f{border:2px solid var(--bad);box-shadow:0 0 0 3px #c4161c22}
+.hero{background:var(--nv);color:#fff;border-radius:16px;padding:14px;margin-bottom:10px;border-bottom:5px solid var(--ye)}
+.row{display:flex;gap:12px;align-items:center}.grow{flex:1}
+h2{font-size:24px;margin:2px 0 6px;text-transform:uppercase}h3{font-size:16px;margin:0}
+.mut{color:var(--mut);font-size:14px}.hero .mut{color:#b9c8ee}.tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:99px;background:var(--bd);margin-top:4px}
+.btn{background:var(--bl);color:#fff;border:0;border-radius:10px;padding:11px 16px;font:inherit;font-weight:700;cursor:pointer}
+.btn.y{background:var(--ye);color:#071d4d}.btn.o{background:none;color:var(--bl);border:1px solid var(--bl)}.btn[disabled]{opacity:.45;cursor:not-allowed}
+.st{font-size:12px;font-weight:700;padding:3px 9px;border-radius:99px;background:var(--bd);color:var(--mut)}
+.big2{min-width:96px;padding:8px 10px;border-radius:12px;color:#fff;text-align:center;font-size:20px;font-weight:700;line-height:1.1;text-transform:uppercase}.big2 i{display:block;font-style:normal;font-size:26px}.big2.w{background:var(--ok)}.big2.f{background:var(--bad)}
+.sb{display:flex;gap:6px;background:#020c24;border-radius:12px;padding:10px;margin-top:10px;justify-content:space-around;text-align:center;border:2px solid #1c3270}
+.sb small{display:block;font-size:10px;color:#8fa4d8;letter-spacing:1px}.sb b{font-size:30px;color:var(--ye);line-height:1}.sb .m{align-self:center;color:#8fa4d8;font-size:22px}
+.bar{height:10px;background:var(--bd);border-radius:9px;overflow:hidden}.bar i{display:block;height:100%;background:var(--ye)}
+input{width:100%;font:inherit;font-size:18px;padding:12px;border-radius:10px;border:2px solid var(--bd);background:var(--card);color:var(--tx)}
+.clock{background:#020c24;color:var(--ye);border:2px solid #1c3270;border-radius:12px;padding:6px 16px;font-size:40px;font-weight:700;font-variant-numeric:tabular-nums}.clock.low{color:#ff5a5f}
+.av{width:56px;height:56px;border-radius:50%;background:var(--ye);border:3px solid var(--bl);display:grid;place-items:center;font-weight:800;font-size:18px;color:var(--nv);flex:none}
+.res{border-radius:16px;padding:16px;text-align:center;color:#fff}.res.w{background:linear-gradient(160deg,#14803c,#0b3a8f)}.res.f{background:linear-gradient(160deg,#c4161c,#071d4d)}.res h2{margin:6px 0;font-size:34px}.goal{font-size:40px;font-weight:700;color:var(--ye);line-height:1}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.n{font-size:28px;font-weight:700;color:var(--bl)}
+small.src{display:block;color:var(--mut);margin-top:6px}.foot{text-align:center;color:var(--mut);font-size:13px;margin-top:18px}
+@media(min-width:600px){.grid{grid-template-columns:repeat(4,1fr)}}
+.calg{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}.cal{aspect-ratio:1;border-radius:10px;border:2px solid var(--bd);background:var(--card);color:var(--tx);font:inherit;padding:2px;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1;cursor:pointer}.cal b{font-size:15px}.cal small{font-size:10px;color:var(--mut)}.cal.x{opacity:.3;cursor:default}.cal.p{background:#ffd10033}.cal.c{background:#0b3a8f22;border-color:var(--bl)}.cal.g{background:#14803c33;border-color:var(--ok)}.cal.hoy b{text-decoration:underline}.cal.sel{outline:3px solid var(--ye)}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><clipPath id="sh"><path d="M15 4 4 10l4 11 6-3v27h20V18l6 3 4-11L33 4q-3 5-9 5t-9-5z"/></clipPath></defs></svg>
+<header><div class="t"><span style="font-size:24px">⚽</span><h1 class="os">Desafíos del <span>Bohemio</span></h1></div><div class="awning"></div></header>
+<main id="app"></main>
+<nav class="tabs" id="tabs" aria-label="Navegación"></nav>
+<script src="datos.js"></script>
+<script src="jornadas.js"></script>
+<script src="app.js"></script>
+</body></html>
