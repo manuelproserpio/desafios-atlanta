@@ -46,6 +46,22 @@ def validar():
     for k,v in vistos.items():
         if len(v)>1:
             (ERR if isinstance(k,tuple) else WARN).append(f"posible duplicado ({', '.join(v)})")
+    # camisetas (fotos)
+    try: CA=leer('camisetas.csv')
+    except FileNotFoundError: CA=[]
+    cid=set();sinperm=0
+    for c in CA:
+        if c['id'] in cid: ERR.append(f"camiseta repetida: {c['id']}")
+        cid.add(c['id'])
+        ruta=os.path.join(BASE,'assets','camisetas',c['archivo'])
+        if not os.path.exists(ruta): ERR.append(f"camiseta {c['id']}: falta el archivo assets/camisetas/{c['archivo']}")
+        elif os.path.getsize(ruta)>120*1024: WARN.append(f"camiseta {c['id']}: la imagen pesa más de 120 KB (optimizala)")
+        if not all(re.fullmatch(r'\d{4}',a) for a in c['anios_validos'].split('|')): ERR.append(f"camiseta {c['id']}: anios_validos mal escrito ('{c['anios_validos']}')")
+        if c['permiso'] not in('SI','CON_CREDITO','PENDIENTE','NO'): ERR.append(f"camiseta {c['id']}: permiso desconocido '{c['permiso']}'")
+        if c['permiso'] in('PENDIENTE',''): sinperm+=1
+        if c.get('origen') not in('FOTO_PROPIA','FOTO_TERCEROS','RECREACION_IA'): ERR.append(f"camiseta {c['id']}: origen desconocido '{c.get('origen')}'")
+        if c['estado'] not in APTO|{'PENDIENTE','CONFLICTO'}: ERR.append(f"camiseta {c['id']}: estado desconocido")
+    if sinperm: WARN.append(f"{sinperm} de {len(CA)} fotos de camisetas tienen el permiso de uso PENDIENTE (conviene confirmar la fuente y el permiso de cada una antes de publicar)")
     # control de sumas por temporada
     estado_temp={};GF_T={}
     L.append("CONTROL DE SUMAS POR TEMPORADA (partidos de liga contra la tabla final)")

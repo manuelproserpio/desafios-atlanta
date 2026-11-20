@@ -1,0 +1,3 @@
+Archivos que cambiaron respecto de la entrega anterior.
+Descomprimilos ENCIMA de la carpeta de tu repositorio (reemplazar los que ya existen).
+Después, en GitHub Desktop: escribí un resumen, Commit to main y Push origin.

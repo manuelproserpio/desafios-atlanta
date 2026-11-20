@@ -40,9 +40,10 @@ GOLEADORES POR TEMPORADA
 NOMBRES DE GOLEADORES NO RECONOCIDOS (0): ninguno
 
 RESUMEN: 394 partidos en la base; 321 aptos para los juegos; 53 con goleadores coherentes.
-         0 errores, 3 avisos.
+         0 errores, 4 avisos.
 
 AVISOS:
+  - 26 de 26 fotos de camisetas tienen el permiso de uso PENDIENTE (conviene confirmar la fuente y el permiso de cada una antes de publicar)
   - 2017/18: 33 partidos PENDIENTES excluidos de los juegos
   - 2016-17-023 San Telmo 2-3 Atlanta: 1 goles de Atlanta cargados para 3 del marcador
   - 2026-004 Atlanta 3-1 Deportivo Maipú: 2 goles de Atlanta cargados para 3 del marcador

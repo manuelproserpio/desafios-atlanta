@@ -50,8 +50,11 @@ def main():
     grp=collections.OrderedDict()
     for a in AL: grp.setdefault(a['id'],dict(id=a['id'],t=a['temporada'],rival=a['rival'],fecha=a['fecha'],f=a['fuente'],js=[]))['js'].append(dict(j=a['jugador'],al=[x for x in a['alias'].split('|') if x],c=a['ciego']))
     D['alineaciones']=list(grp.values())
+    try: CA=L('camisetas.csv')
+    except FileNotFoundError: CA=[]
+    D['camisetas']=[dict(id=c['id'],t=c['temporada'],y=[int(a) for a in c['anios_validos'].split('|')],v=c['version'],img='assets/camisetas/'+c['archivo'],fab=c['fabricante'],sp=c['sponsor'],fu=c['fuente_url'],og=c['origen'],cr=c['credito'],perm=c['permiso'],lvl=c['nivel'],estado=c['estado']) for c in CA if c['estado'] in apt and c['permiso']!='NO' and os.path.exists(os.path.join(V.BASE,'assets','camisetas',c['archivo']))]
     txt="/* ARCHIVO GENERADO por herramientas/generar.py. No editar a mano: editá los CSV de datos/ y volvé a generar. */\nconst DATOS="+json.dumps(D,ensure_ascii=False,separators=(',',':'))+";\n"
     open(os.path.join(V.BASE,'datos.js'),'w',encoding='utf-8').write(txt)
-    print(f"datos.js escrito: {len(D['partidos'])} partidos, {len(D['goles'])} goles, {len(D['goleadores'])} filas de goleadores, {len(D['temporadas'])} temporadas, {sum(len(v) for v in plan.values())} jugadores en planteles ({len(txt)//1024} KB)")
+    print(f"datos.js escrito: {len(D['partidos'])} partidos, {len(D['goles'])} goles, {len(D['goleadores'])} filas de goleadores, {len(D['temporadas'])} temporadas, {sum(len(v) for v in plan.values())} jugadores en planteles ({len(txt)//1024} KB), {len(D['camisetas'])} camisetas")
     return 0
 if __name__=='__main__': sys.exit(main())

@@ -4,8 +4,8 @@ const S=DATOS;
 const SQN=z=>z.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
 const FU={};S.fuentes.forEach(f=>FU[f.id]=f.nombre);
 const srcName=k=>FU[k]||(/^https?:/.test(k)?k.replace(/^https?:\/\/(www\.)?/,"").split("/")[0]:k);
-const GAMES=[["g","¿Cuántos goles?","Adiviná cuántos goles de liga hizo un jugador en una temporada."],["t","Goleadores por temporada","Nombrá al goleador de Atlanta que te piden."],["a","Adiviná la temporada","Descubrí el año: cada error revela una pista más."],["c","Completá la plantilla","Completá los nombres que faltan de una lista."],["w","¿Quién jugó con quién?","Nombrá a otro compañero de plantel."],["i","Futbolista intruso","Encontrá al que no cumple lo que comparten los demás."],["o","Orden cronológico","Ordená hitos del club del más antiguo al más reciente."],["r","Resultados","Adiviná cómo salió un partido de Atlanta."],["m","¿Quién la metió?","Nombrá a uno de los goleadores de Atlanta en ese partido."]];
-const WAIT=[["Su trayectoria","faltan carreras completas verificadas"],["Pirámide","faltan más planteles verificados"],["Camiseta misteriosa","faltan fotos verificadas"]];
+const GAMES=[["g","¿Cuántos goles?","Adiviná cuántos goles de liga hizo un jugador en una temporada."],["t","Goleadores por temporada","Nombrá al goleador de Atlanta que te piden."],["a","Adiviná la temporada","Descubrí el año: cada error revela una pista más."],["c","Completá la plantilla","Completá los nombres que faltan de una lista."],["w","¿Quién jugó con quién?","Nombrá a otro compañero de plantel."],["i","Futbolista intruso","Encontrá al que no cumple lo que comparten los demás."],["o","Orden cronológico","Ordená hitos del club del más antiguo al más reciente."],["r","Resultados","Adiviná cómo salió un partido de Atlanta."],["m","¿Quién la metió?","Nombrá a uno de los goleadores de Atlanta en ese partido."],["k","Camiseta misteriosa","Mirá la camiseta y adiviná de qué temporada es."]];
+const WAIT=[["Su trayectoria","faltan carreras completas verificadas"],["Pirámide","faltan más planteles verificados"]];
 const POOL=[],cnt={};
 const PISTA=new Set(S.fuentes.filter(f=>f.conf=="pista").map(f=>f.id));
 const add=o=>{if(!o.id){cnt[o.type]=(cnt[o.type]||0);o.id=o.type+(cnt[o.type]++)}if(typeof o.src=="string")o.src=o.src.split(",");o.src=[...new Set((o.src||[]).filter(Boolean))];if(o.src.some(k=>PISTA.has(k)))o.st="u";POOL.push(o)};
@@ -58,6 +58,10 @@ S.temporadas.filter(t=>t.gol=="COMPLETO").forEach(t=>{const L=topOf(t.t),pl=S.pl
 /* o: orden cronológico (hitos) */
 const HS=S.hitos.slice().sort((a,b)=>a.k-b.k);
 if(HS.length>=4){const ro=rngS("o"),seen=new Set();for(let n=0;n<80&&seen.size<10;n++){const size=n%3==2?5:4,idx=new Set();while(idx.size<Math.min(size,HS.length))idx.add(Math.floor(ro()*HS.length));const a=[...idx].sort((x,y)=>x-y),key=a.join("-");if(seen.has(key))continue;seen.add(key);add({id:"o-"+key,type:"o",lvl:size==4?"n":"d",it:a.map(i=>({k:HS[i].k,d:HS[i].f,t:HS[i].h})),src:a.flatMap(i=>[HS[i].f1,HS[i].f2]),st:"v"})}}
+/* k: Camiseta misteriosa (valen los dos años de una temporada) */
+(S.camisetas||[]).forEach(c=>{const y1=c.y[0],h=[...c.id].reduce((a,ch)=>a+ch.charCodeAt(0),0),lo=y1-(h%2),p2=n=>String(n%100).padStart(2,"0"),ok=(c.y.length>1?[...c.y,`${c.y[0]}/${p2(c.y[1])}`,`${p2(c.y[0])}/${p2(c.y[1])}`,`${c.y[0]}/${c.y[1]}`]:c.y).map(String),vis=[c.fab&&"marca "+c.fab,c.sp&&"sponsor "+c.sp].filter(Boolean).join(", ");
+ add({id:"k-"+c.id,type:"k",lvl:c.lvl,s:c.t,img:c.img,og:c.og,cr:c.cr,ok,hints:[`Es de la década de ${Math.floor(y1/10)*10}.`,`Es de entre ${lo} y ${lo+3}.`],fu:c.fu,perm:c.perm,src:["usuario"],st:"u",ex:`Camiseta ${c.t}${c.y.length>1?` (valen ${c.y.join(" y ")})`:""}${c.v?`, versión ${c.v}`:""}. Marca y sponsor: ${vis||"sin datos legibles"}. ${F[c.t]||""}`})});
+const capK=q=>`<p class="mut" style="text-align:center;margin:0 0 6px;font-size:12px">${q.og=="RECREACION_IA"?"Imagen recreada con IA a partir de una foto: puede tener diferencias con la camiseta real.":q.cr||""}</p>`;
 const AV=GAMES.filter(g=>POOL.some(q=>q.type==g[0]));
 
 /* ===== UTILIDADES ===== */
@@ -103,13 +107,16 @@ sol:q=>q.x,ex:q=>q.ex},
 o:{b:(q,g)=>`<h3>Ordená del más antiguo (arriba) al más reciente (abajo).</h3>${g.ord.map((k,i)=>`<div class="card row" style="margin-top:8px"><span class="grow">${q.it[k].t}</span><button class="btn o" onclick="mv(${i},-1)" aria-label="Subir">▲</button><button class="btn o" onclick="mv(${i},1)" aria-label="Bajar">▼</button></div>`).join("")}`,
 ck:(q,g)=>{const n=g.ord.filter((k,i)=>k==i).length;return n==q.it.length?{ok:1}:{msg:`${n} de ${q.it.length} en su lugar.`}},
 sol:q=>q.it.map(x=>`${x.d}: ${x.t}`).join("<br>"),ex:q=>"Orden de los hitos según las fuentes indicadas."}};
+H.k={b:(q,g)=>{const c=g.clue||0,bl=q.lvl=="d"?[8,4,0][Math.min(c,2)]:0,hs=q.hints.slice(0,c).map(x=>`<p class="mut" style="margin:6px 0">💡 ${x}</p>`).join("");return`<h3>¿De qué temporada es esta camiseta?</h3><img src="${q.img}" alt="Camiseta de Atlanta" style="display:block;margin:10px auto;max-width:100%;max-height:340px;filter:blur(${bl}px)">${capK(q)}${hs}<p class="mut" style="margin:6px 0">Valen los dos años de una temporada (por ejemplo, 2000 o 2001 para la 2000/01).</p>${inp()}`},
+ck:q=>{const v=val();if(!v)return;return q.ok.includes(norm(v).replace(/ /g,"/"))?{ok:1}:{msg:"No es esa temporada."}},
+sol:q=>`<img src="${q.img}" alt="Camiseta" style="display:block;margin:0 auto 4px;max-height:200px">${capK(q)}${q.s}${q.ok.length>1?` (valen ${q.ok.slice(0,2).join(" y ")})`:""}`,ex:q=>q.ex};
 H.r={b:q=>`<span class="tag">${q.t}</span><h3 style="margin:8px 0">${q.lo} vs ${q.vi}</h3><p class="mut">🏟 Cancha: ${q.es}</p><div class="row" style="justify-content:center;margin:14px 0"><div style="text-align:center;flex:1"><b>${q.lo}</b><input id="r1" type="number" inputmode="numeric" min="0" style="text-align:center;margin-top:6px" onkeydown="if(event.key==='Enter')ans()"></div><b style="font-size:26px">–</b><div style="text-align:center;flex:1"><b>${q.vi}</b><input id="r2" type="number" inputmode="numeric" min="0" style="text-align:center;margin-top:6px" onkeydown="if(event.key==='Enter')ans()"></div></div>`,
 ck:q=>{const a=document.getElementById("r1").value,b=document.getElementById("r2").value;if(a===""||b==="")return;const x=+a,y=+b;if(x==q.a&&y==q.b)return{ok:1};return{msg:Math.sign(x-y)==Math.sign(q.a-q.b)?"Acertaste quién ganó (o el empate), pero no el marcador.":"Ese no fue el resultado."}},
 sol:q=>`${q.lo} ${q.a} - ${q.b} ${q.vi}`,ex:q=>q.ex};
 H.m={b:q=>`<span class="tag">${q.t}</span><h3 style="margin:8px 0">${q.lo} ${q.a} - ${q.b} ${q.vi}</h3><p class="mut">🏟 ${q.es}${q.d?" · "+q.d:""}</p><p>¿Quién marcó para Atlanta? Nombrá a uno.</p>${inp()}`,
 ck:q=>{const v=val();if(!v)return;return q.ans.includes(norm(v))?{ok:1}:{msg:"Ese no marcó para Atlanta en ese partido."}},
 sol:q=>q.sc.join(", "),ex:q=>q.ex};
-const srcs=q=>"Fuentes: "+q.src.map(srcName).join(", ")+" · "+(q.st=="v"?"verificado":"fuente única, validada contra la tabla de la temporada");
+const srcs=q=>q.type=="k"?`${q.cr||"Foto"} · fuente: ${q.fu||"por confirmar"} · permiso de uso: ${q.perm==="SI"?"confirmado":q.perm==="CON_CREDITO"?"con crédito":"pendiente de confirmar"} · la temporada sale del nombre del archivo aportado`:"Fuentes: "+q.src.map(srcName).join(", ")+" · "+(q.st=="v"?"verificado":"fuente única, validada contra la tabla de la temporada");
 /* ===== ESTADO Y NAVEGACIÓN ===== */
 let page="home",arch=today(),calM=today().slice(0,7),G0=null,tm=null;
 function nav(p){if(p=="arc")calM=arch.slice(0,7);page=p;clearInterval(tm);G0=null;draw()}

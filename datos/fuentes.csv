@@ -20,3 +20,4 @@ xl,Excel aportado por el usuario,aporte,media,Validar contra tablas
 csv,CSV aportado por el usuario,aporte,media,Cada fila trae sus URLs
 man,Manicomio Bohemio,hincha,pista,Solo como pista: tiene errores
 sb,Sentimiento Bohemio,hincha,pista,Solo como pista: tiene errores
+usuario,Aporte del usuario (la temporada sale del nombre del archivo),aporte,media,Confirmar fuente y permiso de cada foto
