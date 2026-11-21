@@ -39,7 +39,7 @@ def main():
     plan={s:[dict(j=e['j'],s=e['s'],f=e['f'],al=sorted(e['al'])) for e in d.values()] for s,d in planteles.items()}
     gol_ok=r['gol_ok']
     D=dict(generado=datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
-      fuentes=[dict(id=f['id'],nombre=f['nombre'],tipo=f['tipo'],conf=f['confianza']) for f in FU],
+      fuentes=[dict(id=f['id'],nombre=('Aporte' if f['tipo']=='aporte' else f['nombre']),tipo=f['tipo'],conf=f['confianza']) for f in FU],
       temporadas=[dict(t=t['temporada'],torneo=t['torneo'],zona=t['zona'],pos=t['posicion'],pts=t['puntos'],pj=t['pj'],pg=t['pg'],pe=t['pe'],pp=t['pp'],gf=t['gf'],gc=t['gc'],gol=t['goleadores'],dato=t['dato_clave'],nivel=t['nivel'],f1=t['fuente_1'],f2=t['fuente_2'],estado=t['estado'],posdef=t.get('pos_definitiva','SI')) for t in T if t['estado'] in apt],
       partidos=[dict(id=p['id'],t=p['temporada'],torneo=p['torneo'],zona=p['zona'],fo=p['fecha_oficial'],f=p['fecha'],lo=p['local'],gl=int(p['goles_local']),gv=int(p['goles_visitante']),vi=p['visitante'],es=p['estadio'],estado=p['estado'],f1=p['fuente_1'],f2=p['fuente_2'],gk=1 if p['id'] in gol_ok else 0) for p in P if p['id'] in aptos],
       goles=[dict(p=g['partido_id'],e=g['equipo'],j=g['jugador'],m=g['minuto'],tp=g['tipo']) for g in G if g['partido_id'] in aptos],
@@ -54,7 +54,11 @@ def main():
     except FileNotFoundError: CA=[]
     D['camisetas']=[dict(id=c['id'],t=c['temporada'],y=[int(a) for a in c['anios_validos'].split('|')],v=c['version'],img='assets/camisetas/'+c['archivo'],fab=c['fabricante'],sp=c['sponsor'],fu=c['fuente_url'],og=c['origen'],cr=c['credito'],perm=c['permiso'],lvl=c['nivel'],estado=c['estado']) for c in CA if c['estado'] in apt and c['permiso']!='NO' and os.path.exists(os.path.join(V.BASE,'assets','camisetas',c['archivo']))]
     txt="/* ARCHIVO GENERADO por herramientas/generar.py. No editar a mano: editá los CSV de datos/ y volvé a generar. */\nconst DATOS="+json.dumps(D,ensure_ascii=False,separators=(',',':'))+";\n"
-    open(os.path.join(V.BASE,'datos.js'),'w',encoding='utf-8').write(txt)
-    print(f"datos.js escrito: {len(D['partidos'])} partidos, {len(D['goles'])} goles, {len(D['goleadores'])} filas de goleadores, {len(D['temporadas'])} temporadas, {sum(len(v) for v in plan.values())} jugadores en planteles ({len(txt)//1024} KB), {len(D['camisetas'])} camisetas")
+    ruta=os.path.join(V.BASE,'datos.js')
+    quitar=lambda t:re.sub(r'"generado":"[^"]*"','',t)
+    previo=open(ruta,encoding='utf-8').read() if os.path.exists(ruta) else ''
+    if quitar(previo)!=quitar(txt): open(ruta,'w',encoding='utf-8').write(txt)
+    else: print('datos.js sin cambios (solo se omitió la marca de tiempo)')
+    print(f"datos.js listo: {len(D['partidos'])} partidos, {len(D['goles'])} goles, {len(D['goleadores'])} filas de goleadores, {len(D['temporadas'])} temporadas, {sum(len(v) for v in plan.values())} jugadores en planteles ({len(txt)//1024} KB), {len(D['camisetas'])} camisetas")
     return 0
 if __name__=='__main__': sys.exit(main())

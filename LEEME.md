@@ -8,6 +8,7 @@ Sitio de minijuegos de hinchas sobre el Club Atlético Atlanta (no es la web ofi
 |---|---|
 | `index.html`, `app.js` | La página y su lógica. No contienen datos. |
 | `assets/camisetas/` | Fotos de camisetas ya optimizadas (WebP). |
+| `netlify.toml`, `404.html` | Configuración de Netlify: oculta del sitio público las carpetas internas (`datos/`, `herramientas/`, `.github/`), el informe y esta guía. |
 | `herramientas/optimizar_imagenes.py` | Achica y convierte fotos nuevas de camisetas (necesita Pillow). |
 | `datos.js` | Lo que lee la página. **Se genera solo**: no se edita a mano. |
 | `jornadas.js` | Los 7 desafíos de cada fecha, **congelados**: una jornada ya publicada no cambia aunque se agreguen preguntas. Se genera solo. |
@@ -15,7 +16,7 @@ Sitio de minijuegos de hinchas sobre el Club Atlético Atlanta (no es la web ofi
 | `herramientas/validar.py` | Controla los datos (sumas contra la tabla de cada temporada, duplicados, nombres). |
 | `herramientas/generar.py` | Corre el validador y escribe `datos.js` con los datos aptos. |
 | `herramientas/congelar.js` | Congela en `jornadas.js` la jornada de cada fecha (necesita Node 18 o más nuevo). |
-| `.github/workflows/publicar.yml` | Hace todo lo anterior automáticamente en GitHub y publica el sitio: cada vez que cambiás algo y todos los días a las 00:10 de Argentina (congela la jornada del día). |
+| `.github/workflows/publicar.yml` | Valida, regenera `datos.js` y congela jornadas cuando hace falta (al subir cambios y los lunes). No publica: eso lo hace Netlify. |
 | `informe_validacion.txt` | Último informe del validador. |
 
 Los datos con error o pendientes **no entran** a los juegos: el validador los deja afuera y lo avisa en el informe.
@@ -24,28 +25,18 @@ Los datos con error o pendientes **no entran** a los juegos: el validador los de
 
 El calendario muestra cada día desde el 15/10/2026 con victorias y desafíos jugados (verde: 7 victorias, azul: día completo, amarillo: a medias). Tocar un día abre sus 7 desafíos originales. La fecha de inicio es la constante `INICIO` de `app.js`. Para la racha cuenta solo lo jugado el mismo día: reponer un día del archivo no suma racha.
 
-## Dónde publicarlo (gratis)
+## Dónde está publicado: Netlify (con límites)
 
-Recomendado para empezar: **GitHub Pages** (todo queda en el mismo lugar que los datos y la automatización). Si algún día hay mucho tráfico, se pasa a **Cloudflare Pages** conectando el mismo repositorio. Netlify en el plan gratuito queda corto porque cada actualización diaria consume créditos.
+El sitio se publica en **Netlify** conectado a este repositorio: cada vez que hay un cambio en `main`, Netlify publica de nuevo. Configuración del sitio: sin comando de build y carpeta de publicación `.` (la raíz).
 
-## Publicarlo (GitHub Pages)
-
-Resumen (el paso a paso detallado se dio en el chat):
-
-1. Crear un repositorio **público** en github.com y subir **el contenido** de esta carpeta (no la carpeta en sí): `index.html` tiene que quedar en la raíz del repositorio.
-2. Verificar que exista `.github/workflows/publicar.yml` (si no se subió porque es una carpeta oculta, crearlo a mano).
-3. En «Settings → Pages», elegir como fuente **GitHub Actions** (no «Deploy from a branch»).
-4. En la pestaña «Actions», correr «Validar, generar y publicar» con «Run workflow».
-5. El sitio queda en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/`.
-
-Importante: los commits que hace el robot de la automatización **no** vuelven a publicar Pages por sí solos (así lo indica la documentación de GitHub). Por eso el mismo flujo de trabajo publica el sitio al final de cada ejecución.
+**Ojo con el cupo gratuito:** el plan gratuito actual de Netlify da 300 créditos por mes (límite duro: al agotarse, el sitio se pausa). Cada publicación exitosa cuesta 15 créditos, es decir, unas 20 por mes, y el tráfico también consume. Por eso el flujo de GitHub **no hace commits todos los días**: congela las jornadas con 28 días de anticipación y solo agrega más cuando quedan menos de 14 días congelados. Aun así, conviene juntar varios cambios en un solo push. Si el sitio crece o hace falta más margen, la alternativa gratuita sin ese límite es **Cloudflare Pages** conectado al mismo repositorio (tráfico ilimitado y 500 publicaciones por mes). Las cuentas de Netlify creadas antes del cambio de abril de 2026 pueden seguir en el plan anterior; el panel de Netlify muestra cuál tenés.
 
 ## Rutina de actualización (con los CSV)
 
 1. Entrá al repositorio y abrí `datos/partidos.csv` (lápiz de editar).
 2. Agregá una fila por partido nuevo y, si tenés los goleadores, filas en `datos/goles.csv`.
 3. Confirmá el cambio («Commit changes»).
-4. GitHub corre solo el validador, el generador y la publicación. En 1 a 3 minutos se actualiza la web.
+4. GitHub valida y regenera `datos.js` solo si hace falta, y Netlify publica. En 1 a 3 minutos se actualiza la web.
 5. Si la pestaña «Actions» muestra una cruz roja, hay un error de datos: abrí `informe_validacion.txt` o el detalle de la ejecución, corregí la fila y volvé a confirmar. Mientras tanto la web sigue con los datos anteriores.
 
 Con computadora, además, podés correr `python herramientas/generar.py` y ver el informe antes de subir.
